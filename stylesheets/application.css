@@ -5285,7 +5285,8 @@ li.change.change-D {
 }
 
 .jstElements button[type="button"] {
-  background: #000;
+  background: #fff;
+  color: #333;
   width: 1.8em;
   height: 1.8em;
   border-radius: 4px;
