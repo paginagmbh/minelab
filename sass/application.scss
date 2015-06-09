@@ -3504,10 +3504,13 @@ div[style*="clear:both"], div[style*="clear: both"] {
   }
 }
 
-code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 4px;
+p, div, span {
+  > code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    border: 1px solid rgba(255,0,0,.1);
+  }
 }
