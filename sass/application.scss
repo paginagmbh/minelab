@@ -512,6 +512,11 @@ select {
   }
 }
 
+#top-menu .outer-container,
+#header .outer-container {
+  padding: 0 20px;
+}
+
 #main {
   @include outer-container;
   padding: 0 20px 6em;
