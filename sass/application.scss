@@ -653,10 +653,6 @@ select {
 #admin-index {
   #admin-menu {
     li {
-      @include span-columns(3);
-      @include omega(4n);
-      margin-bottom: 0.5em;
-      padding: 0;
       a {
         display: inline-block;
         width: 100%;

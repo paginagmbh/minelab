@@ -5858,23 +5858,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 /* Admin index */
-#admin-index #admin-menu li {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%;
-  margin-bottom: 0.5em;
-  padding: 0;
-}
-#admin-index #admin-menu li:last-child {
-  margin-right: 0;
-}
-#admin-index #admin-menu li:nth-child(4n) {
-  margin-right: 0;
-}
-#admin-index #admin-menu li:nth-child(4n+1) {
-  clear: left;
-}
 #admin-index #admin-menu li a, #admin-index #admin-menu li .icon-add.checklist-new-only {
   display: inline-block;
   width: 100%;
