@@ -13,3 +13,10 @@ __MACOSX
 
 # sass
 .sass-cache
+
+# grunt
+/node_modules/
+
+# sass libraries
+/sass/bourbon/
+/sass/neat/
