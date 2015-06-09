@@ -528,7 +528,7 @@ select {
     }
   }
   #sidebar {
-    @include span-columns(2);
+    @include span-columns(3);
     padding-top: 1em;
     h3 {
       margin-top: 1em;
@@ -593,7 +593,7 @@ select {
     }
   }
   #content {
-    @include span-columns(10);
+    @include span-columns(9);
     margin-right: 0;
     z-index: 10;
     position: relative;
