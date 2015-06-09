@@ -6285,7 +6285,7 @@ div.projects h3:before {
   margin: 0 4px 2px 0;
 }
 #watchers ul.watchers {
-  padding: 0 10px;
+  padding: 0 10px !important;
 }
 #watchers ul.watchers a, #watchers ul.watchers .icon-add.checklist-new-only {
   width: auto !important;
