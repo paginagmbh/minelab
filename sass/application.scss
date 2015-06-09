@@ -419,6 +419,7 @@ select {
       &:hover {
         color: $dark-blue;
         box-shadow: inset 0 -3px 0 $dark-blue;
+        padding-bottom: 13px;
       }
       &.selected, &.selected:hover {
         font-weight: 600;

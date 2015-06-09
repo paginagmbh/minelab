@@ -5345,7 +5345,7 @@ a, .icon-add.checklist-new-only {
   font-size: 1em;
 }
 a:hover, .icon-add.checklist-new-only:hover, a:active, .icon-add.checklist-new-only:active, a:focus, .icon-add.checklist-new-only:focus {
-  color: #474d57;
+  color: #3c4c5d;
 }
 a.issue.closed, .issue.closed.icon-add.checklist-new-only, a.issue.closed:link, .issue.closed.icon-add.checklist-new-only:link, a.issue.closed:visited, .issue.closed.icon-add.checklist-new-only:visited {
   color: #777777;
@@ -5431,7 +5431,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 #top-menu {
   display: block;
-  background: #474d57;
+  background: #3c4c5d;
   color: white;
   padding: 0 1em;
   cursor: default;
@@ -5448,7 +5448,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   width: 26em;
   top: 99%;
   border: 0;
-  background: #474d57;
+  background: #3c4c5d;
   border-radius: 0 0 4px 4px;
   padding: 0.5em 1em 0.6em;
 }
@@ -5590,7 +5590,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   content: url(../images/logo.svg);
 }
 #header .home:hover, #header .home:active {
-  background: rgba(71, 77, 87, 0.5);
+  background: rgba(60, 76, 93, 0.5);
 }
 #header #quick-search {
   position: relative;
@@ -5605,15 +5605,15 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   position: absolute;
   left: 1.6em;
   top: 0.2em;
-  color: #474d57;
+  color: #3c4c5d;
 }
 #header #quick-search #q {
   margin-left: 1em;
   padding-left: 2em !important;
-  border-color: rgba(71, 77, 87, 0.5);
+  border-color: rgba(60, 76, 93, 0.5);
   padding: 0.4em;
   width: 10em;
-  background: rgba(71, 77, 87, 0.3);
+  background: rgba(60, 76, 93, 0.3);
   box-shadow: none !important;
   position: relative;
   z-index: 0;
@@ -5635,13 +5635,13 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   color: rgba(255, 255, 255, 0.8);
 }
 #header .select2-container .select2-choice {
-  background: rgba(71, 77, 87, 0.3);
-  border-color: rgba(71, 77, 87, 0.5);
+  background: rgba(60, 76, 93, 0.3);
+  border-color: rgba(60, 76, 93, 0.5);
   box-shadow: none !important;
   height: 2.2em;
 }
 #header .select2-container .select2-arrow {
-  border-color: rgba(71, 77, 87, 0.5);
+  border-color: rgba(60, 76, 93, 0.5);
 }
 
 #main-menu {
@@ -5673,8 +5673,9 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   text-align: center;
 }
 #main-menu li a:hover, #main-menu li .icon-add.checklist-new-only:hover {
-  color: #474d57;
-  box-shadow: inset 0 -3px 0 #474d57;
+  color: #3c4c5d;
+  box-shadow: inset 0 -3px 0 #3c4c5d;
+  padding-bottom: 13px;
 }
 #main-menu li a.selected, #main-menu li .selected.icon-add.checklist-new-only, #main-menu li a.selected:hover, #main-menu li .selected.icon-add.checklist-new-only:hover {
   font-weight: 600;
@@ -8367,7 +8368,7 @@ div.contact.details table.subject_header h1 {
   cursor: pointer;
 }
 .icon-add.checklist-new-only:hover, .icon-add.checklist-new-only:active, .icon-add.checklist-new-only:focus {
-  color: #474d57;
+  color: #3c4c5d;
 }
 
 div.agile-board.autoscroll {
