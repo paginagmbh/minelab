@@ -5307,10 +5307,6 @@ li.change.change-D {
 }
 
 /* Common */
-html {
-  overflow-y: scroll;
-}
-
 body {
   color: #333333;
   font-size: 14px;
@@ -5413,7 +5409,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 /* Layout */
 .outer-container {
-  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -5704,10 +5699,9 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 #main {
-  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 6em;
+  padding: 0 20px 6em;
   position: relative;
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
@@ -6580,9 +6574,7 @@ div#issue-changesets p {
 }
 
 div.journal.private-notes {
-  border-left: 2px solid #f2f2f2;
-  padding-left: 4px;
-  margin-left: -6px;
+  border-color: #186797;
 }
 
 div#activity dl, #search-results {
@@ -8155,6 +8147,30 @@ span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset
 
 .splitcontent, div.journal, .syntaxhl .code pre {
   overflow: auto;
+}
+
+div.journal {
+  height: auto;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px 10px 30px;
+  border-radius: 4px;
+  background: #F9F9F9;
+  position: relative;
+}
+
+#main #content div.journal .contextual {
+  bottom: 10px;
+  position: absolute;
+  right: 10px;
+  float: none;
+  top: initial !important;
+}
+
+#activity dt.issue-note, #activity dt.wiki-page {
+  background-image: none !important;
 }
 
 div#search-results-counts ul {

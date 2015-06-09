@@ -17,10 +17,6 @@
 @import "jstoolbar";
 
 /* Common */
-html {
-  overflow-y: scroll;
-}
-
 body {
   color: $text;
   font-size: 14px;
@@ -518,7 +514,7 @@ select {
 
 #main {
   @include outer-container;
-  padding-bottom: 6em;
+  padding: 0 20px 6em;
   position: relative;
   @include animation(fadeIn 1s);
   &.nosidebar {
@@ -1394,9 +1390,7 @@ div#issue-changesets p {
 }
 
 div.journal.private-notes {
-  border-left: 2px solid $light-grey;
-  padding-left: 4px;
-  margin-left: -6px;
+  border-color: #186797;
 }
 
 div#activity dl, #search-results {
@@ -3159,6 +3153,29 @@ span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset
 .splitcontent, div.journal, .syntaxhl .code pre {
   overflow: auto;
 }
+
+
+div.journal {
+  height: auto;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px 10px 30px;
+  border-radius: 4px;
+  background: #F9F9F9;
+  position: relative;
+}
+
+#main #content div.journal .contextual {
+  bottom: 10px;
+  position: absolute;
+  right: 10px;
+  float: none;
+  top: initial!important;
+}
+
+#activity dt.issue-note, #activity dt.wiki-page {background-image: none!important;}
 
 div#search-results-counts ul {
   margin-top: 0.5em;
