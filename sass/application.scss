@@ -1071,28 +1071,38 @@ div.projects h3 {
   }
 }
 
-#watchers select {
-  width: 95%;
-  display: block;
+#watchers {
+  select {
+    width: 95%;
+    display: block;
+  }
+
+  a.delete {
+    opacity: 0.4;
+    vertical-align: middle;
+    @extend .fa-trash;
+    &:before {
+      @extend .fa;
+      margin-right: 0.5em;
+      font-size: 1.2em;
+    }
+    img {
+      display: none !important;
+    }
+  }
+
+  img.gravatar {
+    margin: 0 4px 2px 0;
+  }
+
+  ul.watchers {
+    padding: 0 10px;
+    a {
+      width: auto!important;
+    }
+  }
 }
 
-#watchers a.delete {
-  opacity: 0.4;
-  vertical-align: middle;
-  @extend .fa-trash;
-  &:before {
-    @extend .fa;
-    margin-right: 0.5em;
-    font-size: 1.2em;
-  }
-  img {
-    display: none !important;
-  }
-}
-
-#watchers img.gravatar {
-  margin: 0 4px 2px 0;
-}
 
 span#watchers_inputs {
   overflow: auto;

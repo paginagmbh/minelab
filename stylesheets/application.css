@@ -6265,7 +6265,6 @@ div.projects h3:before {
   width: 95%;
   display: block;
 }
-
 #watchers a.delete, #watchers .delete.icon-add.checklist-new-only {
   opacity: 0.4;
   vertical-align: middle;
@@ -6277,9 +6276,14 @@ div.projects h3:before {
 #watchers a.delete img, #watchers .delete.icon-add.checklist-new-only img {
   display: none !important;
 }
-
 #watchers img.gravatar {
   margin: 0 4px 2px 0;
+}
+#watchers ul.watchers {
+  padding: 0 10px;
+}
+#watchers ul.watchers a, #watchers ul.watchers .icon-add.checklist-new-only {
+  width: auto !important;
 }
 
 span#watchers_inputs {
