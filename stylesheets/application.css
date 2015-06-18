@@ -3876,7 +3876,7 @@ div.members h3:before {
   content: "\f0d6";
 }
 
-.fa-caret-down:before, fieldset.collapsible.collapsed > legend:before {
+.fa-caret-down:before, fieldset.collapsible > legend:before {
   content: "\f0d7";
 }
 
@@ -3888,7 +3888,7 @@ div.members h3:before {
   content: "\f0d9";
 }
 
-.fa-caret-right:before, fieldset.collapsible > legend:before, tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before {
+.fa-caret-right:before, fieldset.collapsible.collapsed > legend:before, tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before {
   content: "\f0da";
 }
 
