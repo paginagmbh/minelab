@@ -5684,6 +5684,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-weight: 600;
   color: #446e9b;
   box-shadow: inset 0 -3px 0 #446e9b;
+  padding-bottom: 13px;
 }
 
 #admin-menu li {
@@ -8437,6 +8438,17 @@ p > code, div > code, span > code {
   background-color: #f9f2f4;
   border-radius: 4px;
   border: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+#issue-form .attributes .splitcontent .splitcontentleft {
+  float: right;
+}
+#issue-form .attributes .splitcontent .splitcontentright {
+  float: left;
+}
+
+.ui-autocomplete {
+  z-index: 1000;
 }
 
 /*# sourceMappingURL=application.css.map */
