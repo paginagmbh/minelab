@@ -1,3 +1,8 @@
+## Note about fork
+This fork adds in various fixes for Redmine 3.x and updates various styles to better use available space.
+
+Original Read Me follows.
+
 ## What is Minelab?
 
 Minelab is a free Redmine 2.5.x theme inspired by Gitlab, written in Sass. It uses Bourbon for cross browser compatibility, Neat for responsive grids and Font Awesome to replace all the stock icons. It also mimics Gitlab's page loading effect using PACE and CSS animations.
