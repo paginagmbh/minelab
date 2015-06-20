@@ -5552,6 +5552,9 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #top-menu #account .menu-children {
   width: 18em;
 }
+#top-menu #sudo {
+  margin-right: 1em;
+}
 
 #header {
   display: block;
