@@ -5517,7 +5517,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 #top-menu a:before, #top-menu .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
-  vertical-align: middle;
 }
 #top-menu a.tt_start:before, #top-menu .tt_start.icon-add.checklist-new-only:before, #top-menu a.tt_stop:before, #top-menu .tt_stop.icon-add.checklist-new-only:before {
   position: relative;

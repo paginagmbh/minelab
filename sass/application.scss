@@ -198,7 +198,6 @@ select {
     &:before {
       @extend .fa;
       margin-right: 0.5em;
-      vertical-align: middle;
     }
     &.my-page {
       @extend .fa-dashboard;
