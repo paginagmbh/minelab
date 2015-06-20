@@ -3440,6 +3440,18 @@ div.contact.details table.subject_header h1 {
   }
 }
 
+select + a[data-method] img {
+  display: none;
+}
+select + a[data-method] {
+  font-size: 1.1em;
+  margin-left: 0.5em;
+  @extend .fa-plus-circle;
+  &:before {
+    @extend .fa;
+  }
+}
+
 .icon-add.checklist-new-only {
   @extend a;
   cursor: pointer;
