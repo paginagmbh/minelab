@@ -121,6 +121,7 @@ select {
 /* Layout */
 
 .outer-container {
+  width: 100%;
   @include outer-container;
 }
 

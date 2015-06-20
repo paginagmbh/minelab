@@ -5411,6 +5411,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 /* Layout */
 .outer-container {
+  width: 100%;
+  max-width: 100em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -5710,6 +5712,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 #main {
+  max-width: 100em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px 6em;
