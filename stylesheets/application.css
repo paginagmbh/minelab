@@ -5566,12 +5566,12 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #header h1 {
   margin: 0;
   font-size: 1.5em;
+  line-height: 2em;
   color: white;
-  font-weight: 400;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   position: relative;
-  padding-left: 3.8em;
+  padding-left: 4.4em;
   z-index: 0;
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
@@ -5579,7 +5579,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 #header .home {
   display: block;
-  width: 3em;
+  width: 3.5em;
   height: 100%;
   border-right: 1px solid #395c82;
   border-left: 1px solid #395c82;
@@ -5587,7 +5587,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   position: absolute;
   top: 0;
   left: 1px;
-  padding: 0.2em;
+  padding: 0.5em;
   text-align: center;
 }
 #header .home:before {
@@ -5598,7 +5598,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 #header #quick-search {
   position: relative;
-  top: 0.65em;
+  top: 1em;
   z-index: 5;
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
@@ -5614,7 +5614,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #header #quick-search #q {
   margin-left: 1em;
   padding-left: 2em !important;
-  border-color: rgba(71, 77, 87, 0.5);
+  border-color: rgba(71, 77, 87, 0.2);
   padding: 0.4em;
   width: 10em;
   background: rgba(71, 77, 87, 0.3);

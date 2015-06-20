@@ -322,18 +322,18 @@ select {
   h1 {
     margin: 0;
     font-size: 1.5em;
+    line-height: 2em;
     color: white;
-    font-weight: 400;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     position: relative;
-    padding-left: 3.8em;
+    padding-left: 4.4em;
     z-index: 0;
     @include animation(fadeIn 1s);
   }
   .home {
     display: block;
-    width: 3em;
+    width: 3.5em;
     height: 100%;
     border-right: 1px solid darken($blue, 7%);
     border-left: 1px solid darken($blue, 7%);
@@ -341,7 +341,7 @@ select {
     position: absolute;
     top: 0;
     left: 1px;
-    padding: 0.2em;
+    padding: 0.5em;
     text-align: center;
     &:before {
       content: url(../images/logo.png);
@@ -352,7 +352,7 @@ select {
   }
   #quick-search {
     position: relative;
-    top: 0.65em;
+    top: 1em;
     z-index: 5;
     @include animation(fadeIn 1s);
     .icon-search {
@@ -367,7 +367,7 @@ select {
     #q {
       margin-left: 1em;
       padding-left: 2em !important;
-      border-color: rgba($dark-blue, 0.5);
+      border-color: rgba($dark-blue, 0.2);
       padding: 0.4em;
       width: 10em;
       background: rgba($dark-blue, 0.3);
