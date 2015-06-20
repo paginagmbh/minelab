@@ -341,7 +341,7 @@ select {
     padding: 0.2em;
     text-align: center;
     &:before {
-      content: url(../images/logo.svg);
+      content: url(../images/logo.png);
     }
     &:hover, &:active {
       background: rgba($dark-blue, 0.5);
