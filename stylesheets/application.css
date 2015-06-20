@@ -8454,10 +8454,10 @@ p > code, div > code, span > code {
 }
 
 #issue-form .attributes .splitcontent .splitcontentleft {
-  float: right;
+  float: left;
 }
 #issue-form .attributes .splitcontent .splitcontentright {
-  float: left;
+  float: right;
 }
 
 .ui-autocomplete {
