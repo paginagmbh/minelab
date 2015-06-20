@@ -6317,7 +6317,7 @@ span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-
 .box {
   display: inline-block;
   width: 100%;
-  padding: 2em 2em 1em;
+  padding: 1em;
   background: #f9f9f9;
   border: 1px solid #cccccc;
   border-radius: 4px;
