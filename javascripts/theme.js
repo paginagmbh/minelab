@@ -20,8 +20,9 @@ jQuery(document).ready(function($){
 	$(window).load(function(){
 		$('input.autocomplete, input.live_search_field, input#q').wrap('<span class="icon-search"></span>');
 
-		$('#quick-search select').select2({
-			width: 'element'
+		$('select').select2({
+			width: 'element',
+			minimumResultsForSearch: 20
 		});
 
 		$('#account:not(.cms) a').each(function() {
