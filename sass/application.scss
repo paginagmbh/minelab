@@ -2,6 +2,9 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic);
+
 // Variables
 @import "variables";
 
@@ -21,8 +24,9 @@ body {
   color: $text;
   font-size: 14px;
   line-height: 1.4;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
   min-height: 100%;
