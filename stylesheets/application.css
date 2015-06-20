@@ -4125,7 +4125,7 @@ div.members h3:before {
   content: "\f115";
 }
 
-.fa-smile-o:before {
+.fa-smile-o:before, .jstElements .jstb_emoji:before {
   content: "\f118";
 }
 
@@ -4818,7 +4818,7 @@ div.members h3:before {
   content: "\f1c8";
 }
 
-.fa-file-code-o:before, .icon-file.text-x-c:before, .icon-file.text-x-csharp:before, .icon-file.text-x-java:before, .icon-file.text-x-javascript:before, .icon-file.text-x-php:before, .icon-file.text-x-ruby:before, .icon-file.text-xml:before, .icon-file.text-css:before, .icon-file.text-html:before {
+.fa-file-code-o:before, .jstElements .jstb_codehighlight:before, .icon-file.text-x-c:before, .icon-file.text-x-csharp:before, .icon-file.text-x-java:before, .icon-file.text-x-javascript:before, .icon-file.text-x-php:before, .icon-file.text-x-ruby:before, .icon-file.text-xml:before, .icon-file.text-css:before, .icon-file.text-html:before {
   content: "\f1c9";
 }
 

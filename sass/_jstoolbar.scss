@@ -68,4 +68,10 @@
   .jstb_help {
     @extend .fa-question-circle;
   }
+  .jstb_codehighlight {
+    @extend .fa-file-code-o;
+  }
+  .jstb_emoji {
+    @extend .fa-smile-o;
+  }
 }
