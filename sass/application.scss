@@ -603,6 +603,15 @@ select {
     .icon-time {
       font-size: 2em;
     }
+    a.repository {
+      &:before {
+        @extend .fa;
+        @extend .fa-code-fork;
+        margin-right: 0.5em;
+        vertical-align: bottom;
+        color: $text;
+      }
+    }
   }
   #content {
     @include span-columns(9);
