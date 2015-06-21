@@ -669,7 +669,7 @@ select {
         margin-left: 1em;
       }
     }
-    h2:first-of-type {
+    >h2:first-of-type {
       font-weight: 400;
       border-bottom: 1px solid $medium-grey;
       margin: 0 0 1.2em;
@@ -1122,6 +1122,17 @@ div.news h3 {
   }
 }
 
+body.controller-news, div.news {
+  .author {
+    color: $grey;
+    a {
+      color: $grey;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}
 div.projects h3 {
   margin-top: 0;
   @extend .fa-cubes;

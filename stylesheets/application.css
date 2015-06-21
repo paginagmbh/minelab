@@ -5867,13 +5867,13 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main #content .contextual a:before, #main #content .contextual .icon-add.checklist-new-only:before {
   margin-left: 1em;
 }
-#main #content h2:first-of-type {
+#main #content > h2:first-of-type {
   font-weight: 400;
   border-bottom: 1px solid #cccccc;
   margin: 0 0 1.2em;
   padding: 0.7em 0;
 }
-#main #content h2:first-of-type .live_search {
+#main #content > h2:first-of-type .live_search {
   margin-left: 1em;
 }
 #main #content form .contextual {
@@ -6289,6 +6289,16 @@ div.news h3 {
 }
 div.news h3:before {
   margin-right: 0.5em;
+}
+
+body.controller-news .author, div.news .author {
+  color: #777777;
+}
+body.controller-news .author a, body.controller-news .author .icon-add.checklist-new-only, div.news .author a, div.news .author .icon-add.checklist-new-only {
+  color: #777777;
+}
+body.controller-news .author a:hover, body.controller-news .author .icon-add.checklist-new-only:hover, div.news .author a:hover, div.news .author .icon-add.checklist-new-only:hover {
+  color: #446e9b;
 }
 
 div.projects h3 {
@@ -6787,7 +6797,7 @@ ul.projects ul {
 
 #projects-index ul.projects li.root {
   border-bottom: 1px solid #ccc;
-  margin-bottom: 2em;
+  margin-bottom: 2em !important;
   padding-bottom: 2em;
 }
 #projects-index ul.projects li.root > div.root > a:before, #projects-index ul.projects li.root > div.root > .icon-add.checklist-new-only:before {
