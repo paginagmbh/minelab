@@ -1633,6 +1633,23 @@ ul.projects ul {
   padding-left: 1.6em;
 }
 
+#projects-index ul.projects li.root {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2em !important;
+  padding-bottom: 2em;
+  & > div.root > a {
+    @extend .fa-cubes;
+    &:before {
+      @extend .fa;
+      margin-right: 0.5em;
+      color: $grey;
+    }
+  }
+  & > div.root > a.my-project {
+    @extend .my-project;
+  }
+}
+
 #projects-index ul.projects ul.projects {
   border-left: 3px solid #e0e0e0;
   padding-left: 1em;
