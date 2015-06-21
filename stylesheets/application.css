@@ -6203,10 +6203,12 @@ a.sort.desc, .sort.desc.icon-add.checklist-new-only {
 table.attributes th {
   vertical-align: top;
   text-align: left;
+  padding: 0 0 0.5em 0;
 }
 
 table.attributes td {
   vertical-align: top;
+  padding: 0 0 0.5em 0;
 }
 
 table.boards a.board:before, table.boards .board.icon-add.checklist-new-only:before, h3.comments:before {

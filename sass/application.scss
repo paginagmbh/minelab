@@ -1019,10 +1019,12 @@ a.sort.desc {
 table.attributes th {
   vertical-align: top;
   text-align: left;
+  padding: 0 0 0.5em 0;
 }
 
 table.attributes td {
   vertical-align: top;
+  padding: 0 0 0.5em 0;
 }
 
 table.boards a.board, h3.comments {
