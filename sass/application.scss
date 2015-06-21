@@ -2544,6 +2544,9 @@ a.close-icon:hover {
 
 .icon-del {
   @extend .fa-trash;
+  &:hover {
+    color: $red;
+  }
 }
 
 .icon-move {

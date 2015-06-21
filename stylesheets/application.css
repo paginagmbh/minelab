@@ -7667,6 +7667,10 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   position: absolute;
 }
 
+.icon-del:hover {
+  color: #e74c3c;
+}
+
 img.gravatar {
   background: white;
   vertical-align: middle;
