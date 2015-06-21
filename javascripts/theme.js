@@ -21,6 +21,7 @@ jQuery(document).ready(function($){
 		$('input.autocomplete, input.live_search_field, input#q').wrap('<span class="icon-search"></span>');
 
 		$('select:not([multiple])').select2({
+			width: 'element',
 			minimumResultsForSearch: 20
 		});
 
