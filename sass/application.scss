@@ -1756,8 +1756,9 @@ p.pagination {
     clear: left;
     margin: 0;
     padding-left: 15em;
-    margin-bottom: 1em;
-    line-height: 2em;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+    overflow: hidden;
     &.live_search {
       font-size: 1em;
       &:before {
