@@ -2693,6 +2693,16 @@ a.close-icon:hover {
 
 .icon-checked {
   @extend .fa-check-square;
+  &.found {
+    color: $green;
+  }
+}
+
+.icon-help {
+  @extend .fa-question-circle ;
+  &.unknown {
+    color: $orange;
+  }
 }
 
 .icon-report {

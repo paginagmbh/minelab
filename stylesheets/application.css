@@ -3436,7 +3436,7 @@ a.close-icon:before,
   content: "\f058";
 }
 
-.fa-question-circle:before, .jstElements .jstb_help:before {
+.fa-question-circle:before, .jstElements .jstb_help:before, .icon-help:before {
   content: "\f059";
 }
 
@@ -7730,6 +7730,14 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
 
 .icon-del:hover {
   color: #e74c3c;
+}
+
+.icon-checked.found {
+  color: #2ecc71;
+}
+
+.icon-help.unknown {
+  color: #f39c12;
 }
 
 img.gravatar {
