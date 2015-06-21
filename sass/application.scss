@@ -1755,8 +1755,8 @@ p.pagination {
     min-height: 1.8em;
     clear: left;
     margin: 0;
-    padding-left: 15em;
-    margin-bottom: 1em;
+    padding-left: 30%;
+    margin-bottom: 1.5em;
     line-height: 2em;
     &.live_search {
       font-size: 1em;
@@ -1773,8 +1773,9 @@ p.pagination {
     font-weight: 600;
     float: left;
     text-align: right;
-    margin-left: -15em;
-    width: 14em;
+    margin-left: -42%;
+    width: 40%;
+    line-height: 1.3em;
     vertical-align: middle;
     &.floating {
       font-weight: 400;
