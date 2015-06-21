@@ -6474,17 +6474,17 @@ div.issue div.subject h3 {
   margin: 0 0 0.1em;
 }
 
-div.issue span.private {
+span.private {
   position: relative;
   bottom: 2px;
   text-transform: uppercase;
   background: #dd2222;
   color: white;
   font-weight: 700;
-  font-size: 60%;
+  font-size: 80%;
   margin-right: 2px;
   border-radius: 2px;
-  padding: 0 2px;
+  padding: 0 3px;
 }
 
 div.issue table.attributes td {
@@ -6563,14 +6563,29 @@ div#issue-changesets {
   margin-bottom: 1em;
   background: white;
   padding-left: 1em;
+}
+div#issue-changesets h3 {
+  margin-top: 0;
+}
+div#issue-changesets h3 + .changeset {
+  border-top: 1px solid #ccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+div#issue-changesets .changeset {
   font-size: 90%;
-}
-
-div#issue-changesets div.changeset {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   border-bottom: 1px solid #dddddd;
-  padding: 4px;
+  padding: 0.5em;
 }
-
+div#issue-changesets .changeset:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+div#issue-changesets .changeset .wiki p {
+  margin: 0;
+}
 div#issue-changesets p {
   margin-top: 0;
   margin-bottom: 1em;
@@ -6586,7 +6601,7 @@ div#issue-changesets p {
 }
 
 div.journal.private-notes {
-  border-color: #186797;
+  border-color: #e74c3c;
 }
 
 div#activity dl, #search-results {
@@ -8164,15 +8179,23 @@ span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset
 }
 
 div.journal {
-  height: auto;
   margin-bottom: 15px;
-  float: left;
-  width: 100%;
   border: 1px solid #ccc;
-  padding: 5px 10px 30px;
+  padding: 5px 10px;
   border-radius: 4px;
   background: #F9F9F9;
   position: relative;
+  opacity: 0.5;
+}
+div.journal.has-notes {
+  opacity: 1.0;
+}
+div.journal ul + .wiki.editable {
+  border-top: 1px solid #cccccc;
+  padding-top: 1em;
+}
+div.journal ul + .wiki.editable p {
+  margin-top: 0;
 }
 
 #main #content div.journal .contextual {
