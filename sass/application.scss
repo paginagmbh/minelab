@@ -491,6 +491,9 @@ select {
       position: relative;
       top: -1px;
     }
+    &.project-aliases {
+      @extend .fa-arrow-circle-right;
+    }
     &.groups {
       @extend .fa-group;
     }

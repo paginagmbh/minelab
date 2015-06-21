@@ -3740,7 +3740,7 @@ a.close-icon:before,
   content: "\f0a8";
 }
 
-.fa-arrow-circle-right:before {
+.fa-arrow-circle-right:before, #admin-menu a.project-aliases:before, #admin-menu .project-aliases.icon-add.checklist-new-only:before {
   content: "\f0a9";
 }
 
