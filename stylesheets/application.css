@@ -6696,6 +6696,12 @@ dt.document {
   background-image: url(../images/document.png);
 }
 
+div#roadmap h3.version:not(:first-child) {
+  border-top: 1px solid #ccc;
+  margin-top: 3em;
+  padding-top: 2em;
+}
+
 div#roadmap .wiki h2 {
   font-size: 110%;
 }
