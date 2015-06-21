@@ -531,6 +531,7 @@ select {
 
 #main {
   @include outer-container;
+  margin-top: 2em;
   padding: 0 20px 6em;
   position: relative;
   @include animation(fadeIn 1s);

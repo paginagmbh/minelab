@@ -5719,6 +5719,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   max-width: 100em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
   padding: 0 20px 6em;
   position: relative;
   -webkit-animation: fadeIn 1s;
