@@ -8512,6 +8512,31 @@ p > code, div > code, span > code {
   z-index: 1000;
 }
 
+/**
+ * Quick fade on target to attract user attention
+ * http://snook.ca/archives/html_and_css/yellow-fade-technique-css-animations
+ */
+:target {
+  -webkit-animation: target-fade 4s 1;
+  -moz-animation: target-fade 4s 1;
+}
+
+@-webkit-keyframes target-fade {
+  0% {
+    background-color: rgba(255, 255, 0, 0.8);
+  }
+  100% {
+    background-color: inherit;
+  }
+}
+@-moz-keyframes target-fade {
+  0% {
+    background-color: rgba(255, 255, 0, 0.8);
+  }
+  100% {
+    background-color: inherit;
+  }
+}
 #header .home:before {
   content: url(../images/logo.png);
 }
