@@ -1133,6 +1133,20 @@ body.controller-news, div.news {
     }
   }
 }
+
+div.news.box, div.issues.box {
+  > p:last-child {
+    margin-bottom: 0;
+    > a {
+      @extend .fa-arrow-right;
+      &:before {
+        @extend .fa;
+        margin-right: 0.4em;
+      }
+    }
+  }
+}
+
 div.projects h3 {
   margin-top: 0;
   @extend .fa-cubes;
