@@ -8503,8 +8503,18 @@ p > code, div > code, span > code {
   content: url(../images/logo.png);
 }
 
+#content div.issue {
+  /* hide next/prev links */
+  /* hide gravatar in issue details */
+}
 #content div.issue .next-prev-links {
   display: none;
+}
+#content div.issue img.gravatar {
+  display: none;
+}
+#content div.issue .author, #content div.issue .subject {
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=application.css.map */

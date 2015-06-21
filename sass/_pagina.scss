@@ -8,8 +8,17 @@
 
 #content {
   div.issue {
-   .next-prev-links {
+    /* hide next/prev links */
+    .next-prev-links {
      display: none;
-   }
+    }
+    
+    /* hide gravatar in issue details */
+    img.gravatar {
+      display: none;
+    }
+    .author, .subject {
+      padding-left: 0;
+    }
   }
 }
