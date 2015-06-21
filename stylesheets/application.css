@@ -6786,7 +6786,9 @@ div.wiki-page .contextual a, div.wiki-page .contextual .icon-add.checklist-new-o
 }
 
 form .attributes select {
-  width: 60%;
+  width: 90%;
+  min-width: 90%;
+  /* fix for select2() hidden issue */
 }
 
 select#issue_done_ratio {
@@ -6887,7 +6889,7 @@ p.pagination {
   clear: left;
   margin: 0;
   padding-left: 15em;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
   line-height: 1.5em;
   overflow: hidden;
 }
