@@ -31,4 +31,19 @@ jQuery(document).ready(function($){
 
 		$('#account:not(.cms) .my-page').parent().detach().prependTo('#account ul:first');
 	});
+    
+    /* sticky main-menu header */
+    function sticky() {
+        var window_top=$(window).scrollTop();
+        var top_position=$('#main').offset().top;
+        var element_to_stick=$('#main-menu');
+        
+        if (window_top > top_position) {
+            element_to_stick.addClass('sticky');
+        } else {
+            element_to_stick.removeClass('sticky');
+        }
+    }
+    $(window).scroll(sticky);
+    sticky();
 });
