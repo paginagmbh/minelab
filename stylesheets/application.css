@@ -7407,6 +7407,7 @@ div.wiki a.new, div.wiki .new.icon-add.checklist-new-only {
 }
 
 div.wiki pre {
+  font-size: 0.95em;
   background-color: #fdfdfd;
   border: 1px solid #e2e2e2;
   width: auto;
