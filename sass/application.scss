@@ -19,6 +19,10 @@
 @import "contextmenu";
 @import "jstoolbar";
 
+// Custom styles pagina GmbH
+// @import at the end of the stylesheet
+
+
 /* Common */
 body {
   color: $text;
@@ -347,7 +351,7 @@ select {
     padding: 0.5em;
     text-align: center;
     &:before {
-      content: url(../images/logo.png);
+      content: url(../images/logo.svg);
     }
     &:hover, &:active {
       background: rgba($dark-blue, 0.5);
@@ -3553,3 +3557,7 @@ p, div, span {
 .ui-autocomplete {
   z-index: 1000;
 }
+
+
+// Custom styles pagina GmbH
+@import "pagina";

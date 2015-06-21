@@ -1,0 +1,7 @@
+#header {
+  .home {
+    &:before {
+      content: url(../images/logo.png);
+    }
+  }
+}
