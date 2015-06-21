@@ -6426,7 +6426,7 @@ textarea.wiki-edit {
 
 div.issue {
   background: #f9f9f9 !important;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   border: 1px solid #cccccc;
   padding: 2em;
   border-radius: 4px;
@@ -6468,10 +6468,13 @@ p.footnote {
 div.issue div.subject p {
   font-size: 90%;
   margin: 0 0 0.3em;
+  color: #777777;
 }
 
 div.issue div.subject h3 {
   margin: 0 0 0.1em;
+  font-size: 1.8em;
+  font-weight: normal;
 }
 
 span.private {
@@ -6589,6 +6592,10 @@ div#issue-changesets .changeset .wiki p {
 div#issue-changesets p {
   margin-top: 0;
   margin-bottom: 1em;
+}
+
+#history > h3 {
+  margin-top: 0;
 }
 
 .journal ul.details {
