@@ -20,5 +20,17 @@
     .author, .subject {
       padding-left: 0;
     }
+    
+    /* mark closed issues */
+    &.closed {
+      .attributes .status {
+        color: $red;
+      }
+      div.subject h3:before {
+        color: $red;
+        display: inline;
+        content: "Geschlossen: ";
+      }
+    }
   }
 }

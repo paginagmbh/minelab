@@ -8513,6 +8513,7 @@ p > code, div > code, span > code {
 #content div.issue {
   /* hide next/prev links */
   /* hide gravatar in issue details */
+  /* mark closed issues */
 }
 #content div.issue .next-prev-links {
   display: none;
@@ -8522,6 +8523,14 @@ p > code, div > code, span > code {
 }
 #content div.issue .author, #content div.issue .subject {
   padding-left: 0;
+}
+#content div.issue.closed .attributes .status {
+  color: #e74c3c;
+}
+#content div.issue.closed div.subject h3:before {
+  color: #e74c3c;
+  display: inline;
+  content: "Geschlossen: ";
 }
 
 /*# sourceMappingURL=application.css.map */
