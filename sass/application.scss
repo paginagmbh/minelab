@@ -589,11 +589,14 @@ select {
       display: inline-block;
       width: 100%;
       border-radius: 4px;
-      padding: 0.5em;
+      padding: 0.3em 0.5em;
       color: $grey;
-      margin-bottom: 0.2em;
       &:hover {
         background: $light-grey;
+      }
+      &.delete:hover {
+        background: none;
+        color: $red;
       }
       &.selected {
         background: $blue;
@@ -766,7 +769,7 @@ table {
     }
     td {
       vertical-align: top;
-      padding: 0.7em;
+      padding: 0.6em 0 0.6em 0.6em;
       border-bottom: 1px solid $light-grey;
       text-align: left !important;
       &.name {
@@ -1274,6 +1277,11 @@ div.issue {
   }
   .contextual {
     top: 0 !important;
+  }
+  .description {
+    .wiki {
+      margin-bottom: 3em;
+    }
   }
   table.issues {
     tr:last-child td {
@@ -3090,7 +3098,7 @@ a.project.closed, a.project.closed:link, a.project.closed:visited, a.user.locked
   text-decoration: none;
 }
 
-table.list td.checkbox input, #relations td.buttons {
+table.list td.checkbox input {
   padding: 0;
 }
 
@@ -3577,10 +3585,10 @@ p, div, span {
   > code {
     padding: 2px 4px;
     font-size: 90%;
-    color: #c7254e;
-    background-color: #f9f2f4;
+    color: $grey;
+    background-color: $white;
     border-radius: 4px;
-    border: 1px solid rgba(255,0,0,.1);
+    border: 1px solid $medium-grey;
   }
 }
 

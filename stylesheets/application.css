@@ -5790,12 +5790,15 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: inline-block;
   width: 100%;
   border-radius: 4px;
-  padding: 0.5em;
+  padding: 0.3em 0.5em;
   color: #777777;
-  margin-bottom: 0.2em;
 }
 #main #sidebar ul a:hover, #main #sidebar ul .icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile/board"]:hover, #main #sidebar [href$="agile/board"].icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile_versions"]:hover, #main #sidebar [href$="agile_versions"].icon-add.checklist-new-only:hover {
   background: #f2f2f2;
+}
+#main #sidebar ul a.delete:hover, #main #sidebar ul .delete.icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile/board"].delete:hover, #main #sidebar [href$="agile/board"].delete.icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile_versions"].delete:hover, #main #sidebar [href$="agile_versions"].delete.icon-add.checklist-new-only:hover {
+  background: none;
+  color: #e74c3c;
 }
 #main #sidebar ul a.selected, #main #sidebar ul .selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile/board"].selected, #main #sidebar [href$="agile/board"].selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile_versions"].selected, #main #sidebar [href$="agile_versions"].selected.icon-add.checklist-new-only {
   background: #446e9b;
@@ -5960,7 +5963,7 @@ table.list th {
 }
 table.list td {
   vertical-align: top;
-  padding: 0.7em;
+  padding: 0.6em 0 0.6em 0.6em;
   border-bottom: 1px solid #f2f2f2;
   text-align: left !important;
 }
@@ -6443,6 +6446,9 @@ div.issue .attributes {
 }
 div.issue .contextual {
   top: 0 !important;
+}
+div.issue .description .wiki {
+  margin-bottom: 3em;
 }
 div.issue table.issues tr:last-child td {
   border-bottom: 0 !important;
@@ -8061,7 +8067,7 @@ a.project.closed, .project.closed.icon-add.checklist-new-only, a.project.closed:
   text-decoration: none;
 }
 
-table.list td.checkbox input, #relations td.buttons {
+table.list td.checkbox input {
   padding: 0;
 }
 
@@ -8489,10 +8495,10 @@ div[style*="clear:both"], div[style*="clear: both"] {
 p > code, div > code, span > code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: #777777;
+  background-color: #f9f9f9;
   border-radius: 4px;
-  border: 1px solid rgba(255, 0, 0, 0.1);
+  border: 1px solid #cccccc;
 }
 
 #issue-form .attributes .splitcontent .splitcontentleft {
