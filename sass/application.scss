@@ -3668,6 +3668,13 @@ p, div, span {
   z-index: 1000;
 }
 
+/* support for emoji plugin */
+img.emoji {
+  vertical-align: text-top !important;
+  width: 16px;
+  height: 16px;
+}
+
 
 /**
  * Quick fade on target to attract user attention
