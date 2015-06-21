@@ -8477,4 +8477,8 @@ p > code, div > code, span > code {
   content: url(../images/logo.png);
 }
 
+#content div.issue .next-prev-links {
+  display: none;
+}
+
 /*# sourceMappingURL=application.css.map */
