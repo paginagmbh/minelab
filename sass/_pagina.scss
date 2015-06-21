@@ -34,3 +34,8 @@
     }
   }
 }
+
+/* hide roadmap filter options */
+#sidebar > form[action$="roadmap"] {
+    display: none;
+}

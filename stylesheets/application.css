@@ -8576,4 +8576,9 @@ p > code, div > code, span > code {
   content: "Geschlossen: ";
 }
 
+/* hide roadmap filter options */
+#sidebar > form[action$="roadmap"] {
+  display: none;
+}
+
 /*# sourceMappingURL=application.css.map */
