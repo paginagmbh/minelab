@@ -35,6 +35,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['compile-sass']);
+    grunt.registerTask('default', ['compile-css']);
     grunt.registerTask('compile-css', ['sass', 'cssmin']);
 };
