@@ -414,21 +414,21 @@ select {
       display: block;
       color: $grey;
       margin: 0;
-      padding: 1em;
+      padding: 14px;
       white-space: nowrap;
       text-align: center;
+      padding-bottom: 12px;
       &:hover {
         color: $medium-dark-blue;
-        box-shadow: inset 0 -3px 0 $medium-dark-blue;
+        border-bottom: 3px solid $medium-dark-blue;
         &:not(.selected) {
-          padding-bottom: 13px;
+          padding-bottom: 12px;
         }
       }
       &.selected, &.selected:hover {
-        font-weight: 600;
         color: $blue;
-        box-shadow: inset 0 -3px 0 $blue;
-        padding-bottom: 13px;
+        border-bottom: 3px solid $blue;
+        padding-bottom: 12px;
       }
     }
   }
