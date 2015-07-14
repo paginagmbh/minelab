@@ -7187,7 +7187,10 @@ table.cal td.odd p.day-num {
 }
 
 table.cal td.today {
-  background: #ffffdd;
+  background: #D3F1FF;
+}
+table.cal td.today div.issue {
+  border-color: #4293BA;
 }
 
 table.cal .starting a:before, table.cal .starting .icon-add.checklist-new-only:before, p.cal.legend .starting:before {

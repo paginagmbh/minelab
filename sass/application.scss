@@ -2027,7 +2027,10 @@ table.cal td.odd p.day-num {
 }
 
 table.cal td.today {
-  background: #ffffdd;
+  background: #D3F1FF;
+  div.issue {
+    border-color: #4293BA;
+  }
 }
 
 table.cal .starting a, p.cal.legend .starting {
