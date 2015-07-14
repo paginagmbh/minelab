@@ -2060,6 +2060,12 @@ table.cal .starting.ending a, p.cal.legend .starting.ending {
   }
 }
 
+table.cal {
+  div.issue {
+    padding: 10px!important;
+  }
+}
+
 .tooltip {
   position: relative;
   z-index: 24;

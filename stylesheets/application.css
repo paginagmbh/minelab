@@ -7208,6 +7208,10 @@ table.cal .starting.ending a:before, table.cal .starting.ending .icon-add.checkl
   color: #e74c3c;
 }
 
+table.cal div.issue {
+  padding: 10px !important;
+}
+
 .tooltip {
   position: relative;
   z-index: 24;
