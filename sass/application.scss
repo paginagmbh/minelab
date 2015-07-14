@@ -222,6 +222,21 @@ select {
     &.administration {
       @extend .fa-gears;
     }
+    &.calendar {
+      @extend .fa-calendar;
+    }
+    &.gantt {
+      @extend .fa-list;
+    }
+    &.issues {
+      @extend .fa-tasks;
+    }
+    &.all-activities, .acitvities {
+      @extend .fa-history;
+    }
+    &.help {
+      @extend .fa-question-circle;
+    }
     &.questions {
       @extend .fa-support;
     }
