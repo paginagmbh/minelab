@@ -3313,7 +3313,7 @@ a.close-icon:before,
   content: "\f039";
 }
 
-.fa-list:before, #top-menu a.adm-enumerations:before, #top-menu .adm-enumerations.icon-add.checklist-new-only:before, #admin-menu a.enumerations:before, #admin-menu .enumerations.icon-add.checklist-new-only:before {
+.fa-list:before, #top-menu a.gantt:before, #top-menu .gantt.icon-add.checklist-new-only:before, #top-menu a.adm-enumerations:before, #top-menu .adm-enumerations.icon-add.checklist-new-only:before, #admin-menu a.enumerations:before, #admin-menu .enumerations.icon-add.checklist-new-only:before {
   content: "\f03a";
 }
 
@@ -3435,7 +3435,7 @@ a.close-icon:before,
   content: "\f058";
 }
 
-.fa-question-circle:before, .jstElements .jstb_help:before {
+.fa-question-circle:before, .jstElements .jstb_help:before, #top-menu a.help:before, #top-menu .help.icon-add.checklist-new-only:before {
   content: "\f059";
 }
 
@@ -3533,7 +3533,7 @@ a.close-icon:before,
   content: "\f072";
 }
 
-.fa-calendar:before {
+.fa-calendar:before, #top-menu a.calendar:before, #top-menu .calendar.icon-add.checklist-new-only:before {
   content: "\f073";
 }
 
@@ -3759,7 +3759,7 @@ a.close-icon:before,
   content: "\f0ad";
 }
 
-.fa-tasks:before {
+.fa-tasks:before, #top-menu a.issues:before, #top-menu .issues.icon-add.checklist-new-only:before {
   content: "\f0ae";
 }
 
@@ -4893,7 +4893,7 @@ div.members h3:before {
   content: "\f1d9";
 }
 
-.fa-history:before, .icon-history:before {
+.fa-history:before, #top-menu a.all-activities:before, #top-menu .all-activities.icon-add.checklist-new-only:before, #top-menu a .acitvities:before, #top-menu .icon-add.checklist-new-only .acitvities:before, .icon-history:before {
   content: "\f1da";
 }
 
