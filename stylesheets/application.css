@@ -6155,7 +6155,7 @@ tr.group a.toggle-all, tr.group .toggle-all.icon-add.checklist-new-only {
 }
 
 table.list tbody tr:hover {
-  background-color: rgba(243, 156, 18, 0.1);
+  background-color: rgba(243, 156, 18, 0.1) !important;
 }
 
 table.list tbody tr.group:hover {

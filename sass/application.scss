@@ -978,7 +978,7 @@ tr.group a.toggle-all {
 }
 
 table.list tbody tr:hover {
-  background-color: rgba($orange, 0.1);
+  background-color: rgba($orange, 0.1)!important;
 }
 
 table.list tbody tr.group:hover {
