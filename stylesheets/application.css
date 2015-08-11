@@ -6263,6 +6263,7 @@ p.pagination .items, p.pagination .per-page {
   display: inline-block;
   margin-top: 10px;
   color: #7D7D7D;
+  float: left;
 }
 p.pagination .per-page a, p.pagination .per-page .icon-add.checklist-new-only {
   color: #337ab7;
@@ -6270,6 +6271,9 @@ p.pagination .per-page a, p.pagination .per-page .icon-add.checklist-new-only {
 p.pagination .per-page span {
   color: #545454;
   font-weight: bold;
+}
+p.pagination .items {
+  clear: left;
 }
 p.pagination .items:after {
   content: " - ";

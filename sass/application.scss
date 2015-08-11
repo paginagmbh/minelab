@@ -1683,6 +1683,7 @@ p.pagination {
     display: inline-block;
     margin-top: 10px;
     color: #7D7D7D;
+    float: left;
   }
 
   .per-page {
@@ -1696,6 +1697,7 @@ p.pagination {
   }
 
   .items {
+    clear: left;
     &:after {
       content: " - ";
       margin: 0 10px;
