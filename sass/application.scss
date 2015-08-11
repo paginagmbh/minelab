@@ -747,7 +747,6 @@ div.modal {
   border-radius: 0;
   background: white;
   z-index: 50;
-  padding: 0.5em;
   p.buttons {
     text-align: right;
     margin-bottom: 0;
@@ -1136,7 +1135,6 @@ div.projects h3 {
     @extend .fa-trash;
     &:before {
       @extend .fa;
-      margin-right: 0.5em;
       font-size: 1.2em;
     }
     img {

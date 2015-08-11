@@ -5351,7 +5351,6 @@ div.modal {
   border-radius: 0;
   background: white;
   z-index: 50;
-  padding: 0.5em;
 }
 div.modal p.buttons {
   text-align: right;
@@ -5715,7 +5714,6 @@ div.projects h3:before {
   vertical-align: middle;
 }
 #watchers a.delete:before, #watchers .delete.icon-add.checklist-new-only:before {
-  margin-right: 0.5em;
   font-size: 1.2em;
 }
 #watchers a.delete img, #watchers .delete.icon-add.checklist-new-only img {
