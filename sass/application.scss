@@ -94,7 +94,7 @@ select {
 }
 
 #{$all-button-inputs}, #{$all-button-inputs-hover}, .button, .button:hover {
-  border: 1px solid $blue-green;
+  border: 1px solid $dark-blue-green;
   background: $blue-green;
   color: white;
   padding: 0.5em 1.5em;
@@ -105,9 +105,27 @@ select {
   text-align: center;
   font-size: 1em;
   height: 35px;
-  + a {
+  &:hover {
+    background: $dark-blue-green;
+    border-color: $dark-blue-green;
+  }
+  + a, + a:hover {
     font-size: 1em;
+    padding: 8px 1.5em;
     @extend .button;
+  }
+}
+
+#issue-form input[type=submit] + a + a {
+  @extend .button;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+
+  &:hover {
+    color: #333;
+    background-color: #e6e6e6!important;
+    border-color: #adadad!important;
   }
 }
 
@@ -645,7 +663,7 @@ select {
       margin: 0 0 1.2em;
       padding: 1.86em 0 0.26em;
       font-size: 1.2em;
-      
+
       .live_search {
         margin-left: 1em;
       }
