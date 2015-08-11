@@ -6221,8 +6221,59 @@ table.fields_permissions td.required {
 }
 
 p.pagination {
-  margin-top: 8px;
-  font-size: 90%;
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0 20px 10px;
+  border-radius: 4px;
+}
+p.pagination a:last-of-type, p.pagination .icon-add.checklist-new-only:last-of-type {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+p.pagination .page, p.pagination .next, p.pagination .previous {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+p.pagination .page:hover, p.pagination .page:focus, p.pagination .next:hover, p.pagination .next:focus, p.pagination .previous:hover, p.pagination .previous:focus {
+  z-index: 3;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+p.pagination .page:first-child, p.pagination .next:first-child, p.pagination .previous:first-child {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+p.pagination .page.current, p.pagination .page.current:hover, p.pagination .page.current:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+p.pagination .items, p.pagination .per-page {
+  display: inline-block;
+  margin-top: 10px;
+  color: #7D7D7D;
+}
+p.pagination .per-page a, p.pagination .per-page .icon-add.checklist-new-only {
+  color: #337ab7;
+}
+p.pagination .per-page span {
+  color: #545454;
+  font-weight: bold;
+}
+p.pagination .items:after {
+  content: " - ";
+  margin: 0 10px;
 }
 
 .tabular p {

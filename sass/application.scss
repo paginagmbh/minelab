@@ -1638,8 +1638,69 @@ table.fields_permissions td.required {
 }
 
 p.pagination {
-  margin-top: 8px;
-  font-size: 90%;
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0 20px 10px;
+  border-radius: 4px;
+
+  a:last-of-type {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .page, .next, .previous {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    &:hover, &:focus {
+      z-index: 3;
+      color: #23527c;
+      background-color: #eee;
+      border-color: #ddd;
+    }
+
+    &:first-child {
+      margin-left: 0;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+  }
+  .page.current, .page.current:hover, .page.current:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+  }
+
+  .items, .per-page {
+    display: inline-block;
+    margin-top: 10px;
+    color: #7D7D7D;
+  }
+
+  .per-page {
+    a {
+      color: #337ab7;
+    }
+    span {
+      color: #545454;
+      font-weight: bold;
+    }
+  }
+
+  .items {
+    &:after {
+      content: " - ";
+      margin: 0 10px;
+    }
+  }
 }
 
 .tabular {
