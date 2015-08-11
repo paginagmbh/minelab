@@ -5271,7 +5271,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-weight: 400;
   border-bottom: 1px solid #cccccc;
   margin: 0 0 1.2em;
-  padding: 0.7em 0;
+  padding: 1.86em 0 0.26em;
+  font-size: 1.2em;
 }
 #main #content h2:first-of-type .live_search {
   margin-left: 1em;
