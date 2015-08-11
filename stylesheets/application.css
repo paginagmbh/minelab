@@ -5158,7 +5158,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 20px 6em;
+  padding: 0 20px 10px;
   position: relative;
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
@@ -6227,11 +6227,6 @@ p.pagination {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0 20px 10px;
-  border-radius: 4px;
-}
-p.pagination a:last-of-type, p.pagination .icon-add.checklist-new-only:last-of-type {
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
 }
 p.pagination .page, p.pagination .next, p.pagination .previous {
   position: relative;
@@ -6243,6 +6238,7 @@ p.pagination .page, p.pagination .next, p.pagination .previous {
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
+  margin-right: 5px;
 }
 p.pagination .page:hover, p.pagination .page:focus, p.pagination .next:hover, p.pagination .next:focus, p.pagination .previous:hover, p.pagination .previous:focus {
   z-index: 3;
@@ -6252,8 +6248,6 @@ p.pagination .page:hover, p.pagination .page:focus, p.pagination .next:hover, p.
 }
 p.pagination .page:first-child, p.pagination .next:first-child, p.pagination .previous:first-child {
   margin-left: 0;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
 }
 p.pagination .page.current, p.pagination .page.current:hover, p.pagination .page.current:focus {
   z-index: 2;
@@ -6277,10 +6271,7 @@ p.pagination .per-page span {
 }
 p.pagination .items {
   clear: left;
-}
-p.pagination .items:after {
-  content: " - ";
-  margin: 0 10px;
+  margin-right: 15px;
 }
 
 .tabular p {
