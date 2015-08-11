@@ -7697,7 +7697,7 @@ dt.time-entry:before, dt.attachment:before, dt.issue-closed:before {
   margin-right: 0.5em;
 }
 
-div#roadmap .related-issues, div#version-summary fieldset, #projects-index ul.projects li.root, div.wiki ul, div.wiki ol {
+div#roadmap .related-issues, div#version-summary fieldset, #projects-index ul.projects li.root, div.wiki > ul, div.wiki > ol {
   margin-bottom: 1em;
 }
 

@@ -3383,7 +3383,7 @@ dt.time-entry, .icon-time {
   @extend .fa-clock-o;
 }
 
-div#roadmap .related-issues, div#version-summary fieldset, #projects-index ul.projects li.root, div.wiki ul, div.wiki ol {
+div#roadmap .related-issues, div#version-summary fieldset, #projects-index ul.projects li.root, div.wiki > ul, div.wiki > ol {
   margin-bottom: 1em;
 }
 
