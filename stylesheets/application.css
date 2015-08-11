@@ -166,7 +166,7 @@ html {
 }
 
 .ui-widget-header {
-  background: #ededed url(images/bg_fallback.png) 0 0 repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 0 repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #ededed 0%, #c4c4c4 100%);
   /* FF3.6+ */
@@ -195,7 +195,7 @@ html {
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-  background: #ededed url(images/bg_fallback.png) 0 0 repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 0 repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #ededed 0%, #c4c4c4 100%);
   /* FF3.6+ */
@@ -234,7 +234,7 @@ html {
   outline: none;
   color: #1c4257;
   border: 1px solid #7096ab;
-  background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 -50px repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%);
   /* FF3.6+ */
@@ -316,31 +316,31 @@ html {
 .ui-icon {
   width: 16px;
   height: 16px;
-  background-image: url(images/ui-icons_222222_256x240.png);
+  background-image: url(../images/ui-icons_222222_256x240.png);
 }
 
 .ui-widget-content .ui-icon {
-  background-image: url(images/ui-icons_222222_256x240.png);
+  background-image: url(../images/ui-icons_222222_256x240.png);
 }
 
 .ui-widget-header .ui-icon {
-  background-image: url(images/ui-icons_222222_256x240.png);
+  background-image: url(../images/ui-icons_222222_256x240.png);
 }
 
 .ui-state-default .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png);
+  background-image: url(../images/ui-icons_454545_256x240.png);
 }
 
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png);
+  background-image: url(../images/ui-icons_454545_256x240.png);
 }
 
 .ui-state-active .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png);
+  background-image: url(../images/ui-icons_454545_256x240.png);
 }
 
 .ui-state-highlight .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png);
+  background-image: url(../images/ui-icons_454545_256x240.png);
 }
 
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
@@ -352,703 +352,182 @@ html {
 }
 
 /* positioning */
-.ui-icon-carat-1-n {
-  background-position: 0 0;
-}
-
-.ui-icon-carat-1-ne {
-  background-position: -16px 0;
-}
-
-.ui-icon-carat-1-e {
-  background-position: -32px 0;
-}
-
-.ui-icon-carat-1-se {
-  background-position: -48px 0;
-}
-
-.ui-icon-carat-1-s {
-  background-position: -64px 0;
-}
-
-.ui-icon-carat-1-sw {
-  background-position: -80px 0;
-}
-
-.ui-icon-carat-1-w {
-  background-position: -96px 0;
-}
-
-.ui-icon-carat-1-nw {
-  background-position: -112px 0;
-}
-
-.ui-icon-carat-2-n-s {
-  background-position: -128px 0;
-}
-
-.ui-icon-carat-2-e-w {
-  background-position: -144px 0;
-}
-
-.ui-icon-triangle-1-n {
-  background-position: 0 -16px;
-}
-
-.ui-icon-triangle-1-ne {
-  background-position: -16px -16px;
-}
-
-.ui-icon-triangle-1-e {
-  background-position: -32px -16px;
-}
-
-.ui-icon-triangle-1-se {
-  background-position: -48px -16px;
-}
-
-.ui-icon-triangle-1-s {
-  background-position: -64px -16px;
-}
-
-.ui-icon-triangle-1-sw {
-  background-position: -80px -16px;
-}
-
-.ui-icon-triangle-1-w {
-  background-position: -96px -16px;
-}
-
-.ui-icon-triangle-1-nw {
-  background-position: -112px -16px;
-}
-
-.ui-icon-triangle-2-n-s {
-  background-position: -128px -16px;
-}
-
-.ui-icon-triangle-2-e-w {
-  background-position: -144px -16px;
-}
-
-.ui-icon-arrow-1-n {
-  background-position: 0 -32px;
-}
-
-.ui-icon-arrow-1-ne {
-  background-position: -16px -32px;
-}
-
-.ui-icon-arrow-1-e {
-  background-position: -32px -32px;
-}
-
-.ui-icon-arrow-1-se {
-  background-position: -48px -32px;
-}
-
-.ui-icon-arrow-1-s {
-  background-position: -64px -32px;
-}
-
-.ui-icon-arrow-1-sw {
-  background-position: -80px -32px;
-}
-
-.ui-icon-arrow-1-w {
-  background-position: -96px -32px;
-}
-
-.ui-icon-arrow-1-nw {
-  background-position: -112px -32px;
-}
-
-.ui-icon-arrow-2-n-s {
-  background-position: -128px -32px;
-}
-
-.ui-icon-arrow-2-ne-sw {
-  background-position: -144px -32px;
-}
-
-.ui-icon-arrow-2-e-w {
-  background-position: -160px -32px;
-}
-
-.ui-icon-arrow-2-se-nw {
-  background-position: -176px -32px;
-}
-
-.ui-icon-arrowstop-1-n {
-  background-position: -192px -32px;
-}
-
-.ui-icon-arrowstop-1-e {
-  background-position: -208px -32px;
-}
-
-.ui-icon-arrowstop-1-s {
-  background-position: -224px -32px;
-}
-
-.ui-icon-arrowstop-1-w {
-  background-position: -240px -32px;
-}
-
-.ui-icon-arrowthick-1-n {
-  background-position: 0 -48px;
-}
-
-.ui-icon-arrowthick-1-ne {
-  background-position: -16px -48px;
-}
-
-.ui-icon-arrowthick-1-e {
-  background-position: -32px -48px;
-}
-
-.ui-icon-arrowthick-1-se {
-  background-position: -48px -48px;
-}
-
-.ui-icon-arrowthick-1-s {
-  background-position: -64px -48px;
-}
-
-.ui-icon-arrowthick-1-sw {
-  background-position: -80px -48px;
-}
-
-.ui-icon-arrowthick-1-w {
-  background-position: -96px -48px;
-}
-
-.ui-icon-arrowthick-1-nw {
-  background-position: -112px -48px;
-}
-
-.ui-icon-arrowthick-2-n-s {
-  background-position: -128px -48px;
-}
-
-.ui-icon-arrowthick-2-ne-sw {
-  background-position: -144px -48px;
-}
-
-.ui-icon-arrowthick-2-e-w {
-  background-position: -160px -48px;
-}
-
-.ui-icon-arrowthick-2-se-nw {
-  background-position: -176px -48px;
-}
-
-.ui-icon-arrowthickstop-1-n {
-  background-position: -192px -48px;
-}
-
-.ui-icon-arrowthickstop-1-e {
-  background-position: -208px -48px;
-}
-
-.ui-icon-arrowthickstop-1-s {
-  background-position: -224px -48px;
-}
-
-.ui-icon-arrowthickstop-1-w {
-  background-position: -240px -48px;
-}
-
-.ui-icon-arrowreturnthick-1-w {
-  background-position: 0 -64px;
-}
-
-.ui-icon-arrowreturnthick-1-n {
-  background-position: -16px -64px;
-}
-
-.ui-icon-arrowreturnthick-1-e {
-  background-position: -32px -64px;
-}
-
-.ui-icon-arrowreturnthick-1-s {
-  background-position: -48px -64px;
-}
-
-.ui-icon-arrowreturn-1-w {
-  background-position: -64px -64px;
-}
-
-.ui-icon-arrowreturn-1-n {
-  background-position: -80px -64px;
-}
-
-.ui-icon-arrowreturn-1-e {
-  background-position: -96px -64px;
-}
-
-.ui-icon-arrowreturn-1-s {
-  background-position: -112px -64px;
-}
-
-.ui-icon-arrowrefresh-1-w {
-  background-position: -128px -64px;
-}
-
-.ui-icon-arrowrefresh-1-n {
-  background-position: -144px -64px;
-}
-
-.ui-icon-arrowrefresh-1-e {
-  background-position: -160px -64px;
-}
-
-.ui-icon-arrowrefresh-1-s {
-  background-position: -176px -64px;
-}
-
-.ui-icon-arrow-4 {
-  background-position: 0 -80px;
-}
-
-.ui-icon-arrow-4-diag {
-  background-position: -16px -80px;
-}
-
-.ui-icon-extlink {
-  background-position: -32px -80px;
-}
-
-.ui-icon-newwin {
-  background-position: -48px -80px;
-}
-
-.ui-icon-refresh {
-  background-position: -64px -80px;
-}
-
-.ui-icon-shuffle {
-  background-position: -80px -80px;
-}
-
-.ui-icon-transfer-e-w {
-  background-position: -96px -80px;
-}
-
-.ui-icon-transferthick-e-w {
-  background-position: -112px -80px;
-}
-
-.ui-icon-folder-collapsed {
-  background-position: 0 -96px;
-}
-
-.ui-icon-folder-open {
-  background-position: -16px -96px;
-}
-
-.ui-icon-document {
-  background-position: -32px -96px;
-}
-
-.ui-icon-document-b {
-  background-position: -48px -96px;
-}
-
-.ui-icon-note {
-  background-position: -64px -96px;
-}
-
-.ui-icon-mail-closed {
-  background-position: -80px -96px;
-}
-
-.ui-icon-mail-open {
-  background-position: -96px -96px;
-}
-
-.ui-icon-suitcase {
-  background-position: -112px -96px;
-}
-
-.ui-icon-comment {
-  background-position: -128px -96px;
-}
-
-.ui-icon-person {
-  background-position: -144px -96px;
-}
-
-.ui-icon-print {
-  background-position: -160px -96px;
-}
-
-.ui-icon-trash {
-  background-position: -176px -96px;
-}
-
-.ui-icon-locked {
-  background-position: -192px -96px;
-}
-
-.ui-icon-unlocked {
-  background-position: -208px -96px;
-}
-
-.ui-icon-bookmark {
-  background-position: -224px -96px;
-}
-
-.ui-icon-tag {
-  background-position: -240px -96px;
-}
-
-.ui-icon-home {
-  background-position: 0 -112px;
-}
-
-.ui-icon-flag {
-  background-position: -16px -112px;
-}
-
-.ui-icon-calendar {
-  background-position: -32px -112px;
-}
-
-.ui-icon-cart {
-  background-position: -48px -112px;
-}
-
-.ui-icon-pencil {
-  background-position: -64px -112px;
-}
-
-.ui-icon-clock {
-  background-position: -80px -112px;
-}
-
-.ui-icon-disk {
-  background-position: -96px -112px;
-}
-
-.ui-icon-calculator {
-  background-position: -112px -112px;
-}
-
-.ui-icon-zoomin {
-  background-position: -128px -112px;
-}
-
-.ui-icon-zoomout {
-  background-position: -144px -112px;
-}
-
-.ui-icon-search {
-  background-position: -160px -112px;
-}
-
-.ui-icon-wrench {
-  background-position: -176px -112px;
-}
-
-.ui-icon-gear {
-  background-position: -192px -112px;
-}
-
-.ui-icon-heart {
-  background-position: -208px -112px;
-}
-
-.ui-icon-star {
-  background-position: -224px -112px;
-}
-
-.ui-icon-link {
-  background-position: -240px -112px;
-}
-
-.ui-icon-cancel {
-  background-position: 0 -128px;
-}
-
-.ui-icon-plus {
-  background-position: -16px -128px;
-}
-
-.ui-icon-plusthick {
-  background-position: -32px -128px;
-}
-
-.ui-icon-minus {
-  background-position: -48px -128px;
-}
-
-.ui-icon-minusthick {
-  background-position: -64px -128px;
-}
-
-.ui-icon-close {
-  background-position: -80px -128px;
-}
-
-.ui-icon-closethick {
-  background-position: -96px -128px;
-}
-
-.ui-icon-key {
-  background-position: -112px -128px;
-}
-
-.ui-icon-lightbulb {
-  background-position: -128px -128px;
-}
-
-.ui-icon-scissors {
-  background-position: -144px -128px;
-}
-
-.ui-icon-clipboard {
-  background-position: -160px -128px;
-}
-
-.ui-icon-copy {
-  background-position: -176px -128px;
-}
-
-.ui-icon-contact {
-  background-position: -192px -128px;
-}
-
-.ui-icon-image {
-  background-position: -208px -128px;
-}
-
-.ui-icon-video {
-  background-position: -224px -128px;
-}
-
-.ui-icon-script {
-  background-position: -240px -128px;
-}
-
-.ui-icon-alert {
-  background-position: 0 -144px;
-}
-
-.ui-icon-info {
-  background: url(images/icon_sprite.png) 0 0 no-repeat !important;
-}
-
-.ui-icon-notice {
-  background-position: -32px -144px;
-}
-
-.ui-icon-help {
-  background-position: -48px -144px;
-}
-
-.ui-icon-check {
-  background-position: -64px -144px;
-}
-
-.ui-icon-bullet {
-  background-position: -80px -144px;
-}
-
-.ui-icon-radio-off {
-  background-position: -96px -144px;
-}
-
-.ui-icon-radio-on {
-  background-position: -112px -144px;
-}
-
-.ui-icon-pin-w {
-  background-position: -128px -144px;
-}
-
-.ui-icon-pin-s {
-  background-position: -144px -144px;
-}
-
-.ui-icon-play {
-  background-position: 0 -160px;
-}
-
-.ui-icon-pause {
-  background-position: -16px -160px;
-}
-
-.ui-icon-seek-next {
-  background-position: -32px -160px;
-}
-
-.ui-icon-seek-prev {
-  background-position: -48px -160px;
-}
-
-.ui-icon-seek-end {
-  background-position: -64px -160px;
-}
-
-.ui-icon-seek-start {
-  background-position: -80px -160px;
-}
-
-/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
-.ui-icon-seek-first {
-  background-position: -80px -160px;
-}
-
-.ui-icon-stop {
-  background-position: -96px -160px;
-}
-
-.ui-icon-eject {
-  background-position: -112px -160px;
-}
-
-.ui-icon-volume-off {
-  background-position: -128px -160px;
-}
-
-.ui-icon-volume-on {
-  background-position: -144px -160px;
-}
-
-.ui-icon-power {
-  background-position: 0 -176px;
-}
-
-.ui-icon-signal-diag {
-  background-position: -16px -176px;
-}
-
-.ui-icon-signal {
-  background-position: -32px -176px;
-}
-
-.ui-icon-battery-0 {
-  background-position: -48px -176px;
-}
-
-.ui-icon-battery-1 {
-  background-position: -64px -176px;
-}
-
-.ui-icon-battery-2 {
-  background-position: -80px -176px;
-}
-
-.ui-icon-battery-3 {
-  background-position: -96px -176px;
-}
-
-.ui-icon-circle-plus {
-  background-position: 0 -192px;
-}
-
-.ui-icon-circle-minus {
-  background-position: -16px -192px;
-}
-
-.ui-icon-circle-close {
-  background-position: -32px -192px;
-}
-
-.ui-icon-circle-triangle-e {
-  background-position: -48px -192px;
-}
-
-.ui-icon-circle-triangle-s {
-  background-position: -64px -192px;
-}
-
-.ui-icon-circle-triangle-w {
-  background-position: -80px -192px;
-}
-
-.ui-icon-circle-triangle-n {
-  background-position: -96px -192px;
-}
-
-.ui-icon-circle-arrow-e {
-  background-position: -112px -192px;
-}
-
-.ui-icon-circle-arrow-s {
-  background-position: -128px -192px;
-}
-
-.ui-icon-circle-arrow-w {
-  background-position: -144px -192px;
-}
-
-.ui-icon-circle-arrow-n {
-  background-position: -160px -192px;
-}
-
-.ui-icon-circle-zoomin {
-  background-position: -176px -192px;
-}
-
-.ui-icon-circle-zoomout {
-  background-position: -192px -192px;
-}
-
-.ui-icon-circle-check {
-  background-position: -208px -192px;
-}
-
-.ui-icon-circlesmall-plus {
-  background-position: 0 -208px;
-}
-
-.ui-icon-circlesmall-minus {
-  background-position: -16px -208px;
-}
-
-.ui-icon-circlesmall-close {
-  background-position: -32px -208px;
-}
-
-.ui-icon-squaresmall-plus {
-  background-position: -48px -208px;
-}
-
-.ui-icon-squaresmall-minus {
-  background-position: -64px -208px;
-}
-
-.ui-icon-squaresmall-close {
-  background-position: -80px -208px;
-}
-
-.ui-icon-grip-dotted-vertical {
-  background-position: 0 -224px;
-}
-
-.ui-icon-grip-dotted-horizontal {
-  background-position: -16px -224px;
-}
-
-.ui-icon-grip-solid-vertical {
-  background-position: -32px -224px;
-}
-
-.ui-icon-grip-solid-horizontal {
-  background-position: -48px -224px;
-}
-
-.ui-icon-gripsmall-diagonal-se {
-  background-position: -64px -224px;
-}
-
-.ui-icon-grip-diagonal-se {
-  background-position: -80px -224px;
-}
-
+/*
+.ui-icon-carat-1-n { background-position: 0 0; }
+.ui-icon-carat-1-ne { background-position: -16px 0; }
+.ui-icon-carat-1-e { background-position: -32px 0; }
+.ui-icon-carat-1-se { background-position: -48px 0; }
+.ui-icon-carat-1-s { background-position: -64px 0; }
+.ui-icon-carat-1-sw { background-position: -80px 0; }
+.ui-icon-carat-1-w { background-position: -96px 0; }
+.ui-icon-carat-1-nw { background-position: -112px 0; }
+.ui-icon-carat-2-n-s { background-position: -128px 0; }
+.ui-icon-carat-2-e-w { background-position: -144px 0; }
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0 -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0 -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0 -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0 -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0 -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0 -144px; }
+.ui-icon-info { background: url(images/icon_sprite.png) 0 0 no-repeat !important; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-off { background-position: -96px -144px; }
+.ui-icon-radio-on { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0 -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-start { background-position: -80px -160px; }
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0 -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0 -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+*/
 /* Misc visuals
 ----------------------------------*/
 /* Corner radius */
@@ -1449,7 +928,7 @@ button.ui-button-icons-only {
   outline: none;
   color: #1c4257;
   border-color: #7096ab;
-  background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 -50px repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%);
   /* FF3.6+ */
@@ -1560,7 +1039,7 @@ input.ui-button::-moz-focus-inner {
 }
 
 .ui-buttonset .ui-button.ui-state-active {
-  background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 -50px repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%);
   /* FF3.6+ */
@@ -1635,16 +1114,6 @@ button.ui-button::-moz-focus-inner {
   height: 16px;
 }
 
-.ui-dialog .ui-dialog-titlebar-close span {
-  display: block;
-  margin: 1px;
-  background: url(images/icon_sprite.png) 0 -16px no-repeat;
-}
-
-.ui-dialog .ui-dialog-titlebar-close:hover span {
-  background-position: -16px -16px;
-}
-
 .ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus {
   padding: 0;
   border: 0;
@@ -1710,7 +1179,7 @@ button.ui-button::-moz-focus-inner {
 }
 
 .ui-slider .ui-slider-handle {
-  background: url(images/slider_handles.png) 0px -23px no-repeat;
+  background: url(../images/slider_handles.png) 0px -23px no-repeat;
   position: absolute;
   z-index: 2;
   width: 23px;
@@ -1925,32 +1394,6 @@ button.ui-button::-moz-focus-inner {
   right: 2px;
 }
 
-.ui-datepicker .ui-datepicker-prev span {
-  background-position: 0px -32px !important;
-}
-
-.ui-datepicker .ui-datepicker-next span {
-  background-position: -16px -32px !important;
-}
-
-.ui-datepicker .ui-datepicker-prev-hover span {
-  background-position: 0px -48px !important;
-}
-
-.ui-datepicker .ui-datepicker-next-hover span {
-  background-position: -16px -48px !important;
-}
-
-.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
-  display: block;
-  position: absolute;
-  left: 50%;
-  margin-left: -8px;
-  top: 50%;
-  margin-top: -8px;
-  background: url(images/icon_sprite.png) no-repeat;
-}
-
 .ui-datepicker .ui-datepicker-title {
   margin: 0 2.3em;
   line-height: 1.8em;
@@ -2028,7 +1471,6 @@ button.ui-button::-moz-focus-inner {
 .ui-datepicker table .ui-state-hover {
   background: #5F83B9;
   color: #FFF;
-  font-weight: bold;
   text-shadow: 0 1px 1px #234386;
   -webkit-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.6) inset;
   -moz-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.6) inset;
@@ -2177,13 +1619,13 @@ button.ui-button::-moz-focus-inner {
 .ui-progressbar {
   height: 12px;
   text-align: left;
-  background: #FFF url(images/progress_bar.gif) 0 -14px repeat-x;
+  background: #FFF url(../images/progress_bar.gif) 0 -14px repeat-x;
 }
 
 .ui-progressbar .ui-progressbar-value {
   margin: -1px;
   height: 100%;
-  background: url(images/progress_bar.gif) 0 0 repeat-x;
+  background: url(../images/progress_bar.gif) 0 0 repeat-x;
 }
 
 /* Extra Input Field Styling */
@@ -2907,7 +2349,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   font-weight: normal;
   font-style: normal;
 }
-.fa, #context-menu li a.submenu:before, .jstElements button[type="button"]:before, #top-menu a:before, #top-menu .icon-add.checklist-new-only:before, #admin-menu a:before, #admin-menu .icon-add.checklist-new-only:before, tr.project [id^="favorite_project"], tr span.expander:before, tr.open span.expander:before, table.boards a.board:before, table.boards .board.icon-add.checklist-new-only:before, h3.comments:before, h3.version:before, div.issues h3:before, div.members h3:before, div.news h3:before, div.projects h3:before, #watchers a.delete:before, #watchers .delete.icon-add.checklist-new-only:before, span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-new-only:before, span.add_attachment a:before, span.add_attachment .icon-add.checklist-new-only:before, fieldset.collapsible > legend:before, .my-project:before, span.icon-search:before, table.cal .starting a:before, table.cal .starting .icon-add.checklist-new-only:before, p.cal.legend .starting:before, table.cal .ending a:before, table.cal .ending .icon-add.checklist-new-only:before, p.cal.legend .ending:before, table.cal .starting.ending a:before, p.cal.legend .starting.ending:before, button.tab-left:before, button.tab-right:before, a.close-icon:before, .close-icon.icon-add.checklist-new-only:before, .icon:before, [class*="icon-"]:before, #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before, tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before, dt.time-entry:before, dt.attachment:before, dt.issue-closed:before, .icon-contact:before, .icon-invoice:before, .jstEditor:not(.zen) button.jstb_zenedit:before, #invoice_contact_id_add_link:before {
+.fa, #context-menu li a.submenu:before, #context-menu li .submenu.icon-add.checklist-new-only:before, .jstElements button[type="button"]:before, #top-menu a:before, #top-menu .icon-add.checklist-new-only:before, #admin-menu a:before, #admin-menu .icon-add.checklist-new-only:before, tr.project [id^="favorite_project"], tr span.expander:before, tr.open span.expander:before, table.boards a.board:before, table.boards .board.icon-add.checklist-new-only:before, h3.comments:before, h3.version:before, div.issues h3:before, div.members h3:before, div.news h3:before, div.projects h3:before, #watchers a.delete:before, #watchers .delete.icon-add.checklist-new-only:before, span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-new-only:before, span.add_attachment a:before, span.add_attachment .icon-add.checklist-new-only:before, fieldset.collapsible > legend:before, .my-project:before, span.icon-search:before, table.cal .starting a:before, table.cal .starting .icon-add.checklist-new-only:before, p.cal.legend .starting:before, table.cal .ending a:before, table.cal .ending .icon-add.checklist-new-only:before, p.cal.legend .ending:before, table.cal .starting.ending a:before, table.cal .starting.ending .icon-add.checklist-new-only:before, p.cal.legend .starting.ending:before, button.tab-left:before, button.tab-right:before, a.close-icon:before, .close-icon.icon-add.checklist-new-only:before, .icon:before, #header #quick-search .icon-search:before, #admin-menu a.projects:before, #admin-menu .projects.icon-add.checklist-new-only:before, #admin-menu dt.project:before, #admin-menu .icon-projects:before, #admin-menu a.users:before, #admin-menu .users.icon-add.checklist-new-only:before, #admin-menu .icon-user:before, #admin-menu a.trackers:before, #admin-menu .trackers.icon-add.checklist-new-only:before, #admin-menu dt.issue:before, #admin-menu .icon-issue:before, #admin-menu a.issue_statuses:before, #admin-menu .issue_statuses.icon-add.checklist-new-only:before, #admin-menu dt.issue-edit:before, #admin-menu a.settings:before, #admin-menu .settings.icon-add.checklist-new-only:before, #admin-menu dt.changeset:before, #admin-menu a.info:before, #admin-menu .info.icon-add.checklist-new-only:before, #admin-menu .icon-help:before, #admin-menu a.server_authentication:before, #admin-menu .server_authentication.icon-add.checklist-new-only:before, #admin-menu .icon-server-authentication:before, .icon-add:before, .icon-add-payment:before, .icon-edit:before, .icon-copy:before, .icon-duplicate:before, .icon-del:before, .icon-move:before, .icon-save:before, .icon-cancel:before, .icon-multiple:before, .icon-folder:before, .open .icon-folder:before, .icon-history:before, .icon-time-add:before, .icon-stats:before, .icon-warning:before, .icon-fav:before, .icon-fav-off:before, .icon-reload:before, .icon-lock:before, .icon-unlock:before, .icon-checked:before, .icon-report:before, .icon-comment:before, .icon-summary:before, .icon-zoom-out:before, .icon-passwd:before, .icon-test:before, .icon-file:before, .icon-file.text-plain:before, .icon-file.text-x-c:before, .icon-file.text-x-csharp:before, .icon-file.text-x-java:before, .icon-file.text-x-javascript:before, .icon-file.text-x-php:before, .icon-file.text-x-ruby:before, .icon-file.text-xml:before, .icon-file.text-css:before, .icon-file.text-html:before, .icon-file.application-pdf:before, .icon-pdf:before, .icon-start:before, .tt_start:before, .icon-stop:before, .tt_stop:before, dt.attachment:before, .icon-attachment:before, dt.time-entry:before, .icon-time:before, .icon-details:before, .icon-zoom-in:before, .icon-contact:before, .icon-invoice:before, .icon-phone:before, .icon-email:before, .icon-linkedin:before, .icon-merge:before, .icon-add.checklist-new-only:before, [class*="icon-"]:before, #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before, tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before, dt.issue-closed:before, .jstEditor:not(.zen) button.jstb_zenedit:before, #invoice_contact_id_add_link:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2980,11 +2422,11 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   float: left;
 }
 
-.fa.pull-left, .jstElements button.pull-left[type="button"]:before, #top-menu a.pull-left:before, #top-menu .pull-left.icon-add.checklist-new-only:before, #admin-menu a.pull-left:before, #admin-menu .pull-left.icon-add.checklist-new-only:before, tr.project .pull-left[id^="favorite_project"], tr span.pull-left.expander:before, table.boards a.pull-left.board:before, table.boards .pull-left.board.icon-add.checklist-new-only:before, h3.pull-left.comments:before, h3.pull-left.version:before, div.issues h3.pull-left:before, div.members h3.pull-left:before, div.news h3.pull-left:before, div.projects h3.pull-left:before, #watchers a.pull-left.delete:before, #watchers .pull-left.delete.icon-add.checklist-new-only:before, span.search_for_watchers a.pull-left:before, span.search_for_watchers .pull-left.icon-add.checklist-new-only:before, span.add_attachment a.pull-left:before, span.add_attachment .pull-left.icon-add.checklist-new-only:before, fieldset.collapsible > legend.pull-left:before, .pull-left.my-project:before, span.pull-left.icon-search:before, table.cal .starting a.pull-left:before, table.cal .starting .pull-left.icon-add.checklist-new-only:before, p.cal.legend .pull-left.starting:before, table.cal .ending a.pull-left:before, table.cal .ending .pull-left.icon-add.checklist-new-only:before, p.cal.legend .pull-left.ending:before, button.pull-left.tab-left:before, button.pull-left.tab-right:before, a.pull-left.close-icon:before, .pull-left.close-icon.icon-add.checklist-new-only:before, .pull-left.icon:before, .pull-left[class*="icon-"]:before, #context-menu li a.pull-left:before, #context-menu li .pull-left.icon-add.checklist-new-only:before, tr.project.idnt td.name span.pull-left:before, tr.issue.idnt td.subject a.pull-left:before, tr.issue.idnt td.subject .pull-left.icon-add.checklist-new-only:before, dt.pull-left.time-entry:before, dt.pull-left.attachment:before, dt.pull-left.issue-closed:before, .pull-left.icon-contact:before, .pull-left.icon-invoice:before, .jstEditor:not(.zen) button.pull-left.jstb_zenedit:before, .pull-left#invoice_contact_id_add_link:before {
+.fa.pull-left, #context-menu li a.pull-left.submenu:before, #context-menu li .pull-left.submenu.icon-add.checklist-new-only:before, .jstElements button.pull-left[type="button"]:before, #top-menu a.pull-left:before, #top-menu .pull-left.icon-add.checklist-new-only:before, #admin-menu a.pull-left:before, #admin-menu .pull-left.icon-add.checklist-new-only:before, tr.project .pull-left[id^="favorite_project"], tr span.pull-left.expander:before, tr.open span.pull-left.expander:before, table.boards a.pull-left.board:before, table.boards .pull-left.board.icon-add.checklist-new-only:before, h3.pull-left.comments:before, h3.pull-left.version:before, div.issues h3.pull-left:before, div.members h3.pull-left:before, div.news h3.pull-left:before, div.projects h3.pull-left:before, #watchers a.pull-left.delete:before, #watchers .pull-left.delete.icon-add.checklist-new-only:before, span.search_for_watchers a.pull-left:before, span.search_for_watchers .pull-left.icon-add.checklist-new-only:before, span.add_attachment a.pull-left:before, span.add_attachment .pull-left.icon-add.checklist-new-only:before, fieldset.collapsible > legend.pull-left:before, .pull-left.my-project:before, span.pull-left.icon-search:before, table.cal .starting a.pull-left:before, table.cal .starting .pull-left.icon-add.checklist-new-only:before, p.cal.legend .pull-left.starting:before, table.cal .ending a.pull-left:before, table.cal .ending .pull-left.icon-add.checklist-new-only:before, p.cal.legend .pull-left.ending:before, table.cal .starting.ending a.pull-left:before, table.cal .starting.ending .pull-left.icon-add.checklist-new-only:before, p.cal.legend .pull-left.starting.ending:before, button.pull-left.tab-left:before, button.pull-left.tab-right:before, a.pull-left.close-icon:before, .pull-left.close-icon.icon-add.checklist-new-only:before, .pull-left.icon:before, #header #quick-search .pull-left.icon-search:before, #admin-menu a.pull-left.projects:before, #admin-menu .pull-left.projects.icon-add.checklist-new-only:before, #admin-menu dt.pull-left.project:before, #admin-menu .pull-left.icon-projects:before, #admin-menu a.pull-left.users:before, #admin-menu .pull-left.users.icon-add.checklist-new-only:before, #admin-menu .pull-left.icon-user:before, #admin-menu a.pull-left.trackers:before, #admin-menu .pull-left.trackers.icon-add.checklist-new-only:before, #admin-menu dt.pull-left.issue:before, #admin-menu .pull-left.icon-issue:before, #admin-menu a.pull-left.issue_statuses:before, #admin-menu .pull-left.issue_statuses.icon-add.checklist-new-only:before, #admin-menu dt.pull-left.issue-edit:before, #admin-menu a.pull-left.settings:before, #admin-menu .pull-left.settings.icon-add.checklist-new-only:before, #admin-menu dt.pull-left.changeset:before, #admin-menu a.pull-left.info:before, #admin-menu .pull-left.info.icon-add.checklist-new-only:before, #admin-menu .pull-left.icon-help:before, #admin-menu a.pull-left.server_authentication:before, #admin-menu .pull-left.server_authentication.icon-add.checklist-new-only:before, #admin-menu .pull-left.icon-server-authentication:before, .pull-left.icon-add:before, .pull-left.icon-add-payment:before, .pull-left.icon-edit:before, .pull-left.icon-copy:before, .pull-left.icon-duplicate:before, .pull-left.icon-del:before, .pull-left.icon-move:before, .pull-left.icon-save:before, .pull-left.icon-cancel:before, .pull-left.icon-multiple:before, .pull-left.icon-folder:before, .pull-left.icon-history:before, .pull-left.icon-time-add:before, .pull-left.icon-stats:before, .pull-left.icon-warning:before, .pull-left.icon-fav:before, .pull-left.icon-fav-off:before, .pull-left.icon-reload:before, .pull-left.icon-lock:before, .pull-left.icon-unlock:before, .pull-left.icon-checked:before, .pull-left.icon-report:before, .pull-left.icon-comment:before, .pull-left.icon-summary:before, .pull-left.icon-zoom-out:before, .pull-left.icon-passwd:before, .pull-left.icon-test:before, .pull-left.icon-file:before, .pull-left.icon-pdf:before, .pull-left.icon-start:before, .pull-left.tt_start:before, .pull-left.icon-stop:before, .pull-left.tt_stop:before, dt.pull-left.attachment:before, .pull-left.icon-attachment:before, dt.pull-left.time-entry:before, .pull-left.icon-time:before, .pull-left.icon-details:before, .pull-left.icon-zoom-in:before, .pull-left.icon-contact:before, .pull-left.icon-invoice:before, .pull-left.icon-phone:before, .pull-left.icon-email:before, .pull-left.icon-linkedin:before, .pull-left.icon-merge:before, .pull-left[class*="icon-"]:before, #context-menu li a.pull-left:before, #context-menu li .pull-left.icon-add.checklist-new-only:before, tr.project.idnt td.name span.pull-left:before, tr.issue.idnt td.subject a.pull-left:before, tr.issue.idnt td.subject .pull-left.icon-add.checklist-new-only:before, dt.pull-left.issue-closed:before, .jstEditor:not(.zen) button.pull-left.jstb_zenedit:before, .pull-left#invoice_contact_id_add_link:before {
   margin-right: .3em;
 }
 
-.fa.pull-right, .jstElements button.pull-right[type="button"]:before, #top-menu a.pull-right:before, #top-menu .pull-right.icon-add.checklist-new-only:before, #admin-menu a.pull-right:before, #admin-menu .pull-right.icon-add.checklist-new-only:before, tr.project .pull-right[id^="favorite_project"], tr span.pull-right.expander:before, table.boards a.pull-right.board:before, table.boards .pull-right.board.icon-add.checklist-new-only:before, h3.pull-right.comments:before, h3.pull-right.version:before, div.issues h3.pull-right:before, div.members h3.pull-right:before, div.news h3.pull-right:before, div.projects h3.pull-right:before, #watchers a.pull-right.delete:before, #watchers .pull-right.delete.icon-add.checklist-new-only:before, span.search_for_watchers a.pull-right:before, span.search_for_watchers .pull-right.icon-add.checklist-new-only:before, span.add_attachment a.pull-right:before, span.add_attachment .pull-right.icon-add.checklist-new-only:before, fieldset.collapsible > legend.pull-right:before, .pull-right.my-project:before, span.pull-right.icon-search:before, table.cal .starting a.pull-right:before, table.cal .starting .pull-right.icon-add.checklist-new-only:before, p.cal.legend .pull-right.starting:before, table.cal .ending a.pull-right:before, table.cal .ending .pull-right.icon-add.checklist-new-only:before, p.cal.legend .pull-right.ending:before, button.pull-right.tab-left:before, button.pull-right.tab-right:before, a.pull-right.close-icon:before, .pull-right.close-icon.icon-add.checklist-new-only:before, .pull-right.icon:before, .pull-right[class*="icon-"]:before, #context-menu li a.pull-right:before, #context-menu li .pull-right.icon-add.checklist-new-only:before, tr.project.idnt td.name span.pull-right:before, tr.issue.idnt td.subject a.pull-right:before, tr.issue.idnt td.subject .pull-right.icon-add.checklist-new-only:before, dt.pull-right.time-entry:before, dt.pull-right.attachment:before, dt.pull-right.issue-closed:before, .pull-right.icon-contact:before, .pull-right.icon-invoice:before, .jstEditor:not(.zen) button.pull-right.jstb_zenedit:before, .pull-right#invoice_contact_id_add_link:before {
+.fa.pull-right, #context-menu li a.pull-right.submenu:before, #context-menu li .pull-right.submenu.icon-add.checklist-new-only:before, .jstElements button.pull-right[type="button"]:before, #top-menu a.pull-right:before, #top-menu .pull-right.icon-add.checklist-new-only:before, #admin-menu a.pull-right:before, #admin-menu .pull-right.icon-add.checklist-new-only:before, tr.project .pull-right[id^="favorite_project"], tr span.pull-right.expander:before, tr.open span.pull-right.expander:before, table.boards a.pull-right.board:before, table.boards .pull-right.board.icon-add.checklist-new-only:before, h3.pull-right.comments:before, h3.pull-right.version:before, div.issues h3.pull-right:before, div.members h3.pull-right:before, div.news h3.pull-right:before, div.projects h3.pull-right:before, #watchers a.pull-right.delete:before, #watchers .pull-right.delete.icon-add.checklist-new-only:before, span.search_for_watchers a.pull-right:before, span.search_for_watchers .pull-right.icon-add.checklist-new-only:before, span.add_attachment a.pull-right:before, span.add_attachment .pull-right.icon-add.checklist-new-only:before, fieldset.collapsible > legend.pull-right:before, .pull-right.my-project:before, span.pull-right.icon-search:before, table.cal .starting a.pull-right:before, table.cal .starting .pull-right.icon-add.checklist-new-only:before, p.cal.legend .pull-right.starting:before, table.cal .ending a.pull-right:before, table.cal .ending .pull-right.icon-add.checklist-new-only:before, p.cal.legend .pull-right.ending:before, table.cal .starting.ending a.pull-right:before, table.cal .starting.ending .pull-right.icon-add.checklist-new-only:before, p.cal.legend .pull-right.starting.ending:before, button.pull-right.tab-left:before, button.pull-right.tab-right:before, a.pull-right.close-icon:before, .pull-right.close-icon.icon-add.checklist-new-only:before, .pull-right.icon:before, #header #quick-search .pull-right.icon-search:before, #admin-menu a.pull-right.projects:before, #admin-menu .pull-right.projects.icon-add.checklist-new-only:before, #admin-menu dt.pull-right.project:before, #admin-menu .pull-right.icon-projects:before, #admin-menu a.pull-right.users:before, #admin-menu .pull-right.users.icon-add.checklist-new-only:before, #admin-menu .pull-right.icon-user:before, #admin-menu a.pull-right.trackers:before, #admin-menu .pull-right.trackers.icon-add.checklist-new-only:before, #admin-menu dt.pull-right.issue:before, #admin-menu .pull-right.icon-issue:before, #admin-menu a.pull-right.issue_statuses:before, #admin-menu .pull-right.issue_statuses.icon-add.checklist-new-only:before, #admin-menu dt.pull-right.issue-edit:before, #admin-menu a.pull-right.settings:before, #admin-menu .pull-right.settings.icon-add.checklist-new-only:before, #admin-menu dt.pull-right.changeset:before, #admin-menu a.pull-right.info:before, #admin-menu .pull-right.info.icon-add.checklist-new-only:before, #admin-menu .pull-right.icon-help:before, #admin-menu a.pull-right.server_authentication:before, #admin-menu .pull-right.server_authentication.icon-add.checklist-new-only:before, #admin-menu .pull-right.icon-server-authentication:before, .pull-right.icon-add:before, .pull-right.icon-add-payment:before, .pull-right.icon-edit:before, .pull-right.icon-copy:before, .pull-right.icon-duplicate:before, .pull-right.icon-del:before, .pull-right.icon-move:before, .pull-right.icon-save:before, .pull-right.icon-cancel:before, .pull-right.icon-multiple:before, .pull-right.icon-folder:before, .pull-right.icon-history:before, .pull-right.icon-time-add:before, .pull-right.icon-stats:before, .pull-right.icon-warning:before, .pull-right.icon-fav:before, .pull-right.icon-fav-off:before, .pull-right.icon-reload:before, .pull-right.icon-lock:before, .pull-right.icon-unlock:before, .pull-right.icon-checked:before, .pull-right.icon-report:before, .pull-right.icon-comment:before, .pull-right.icon-summary:before, .pull-right.icon-zoom-out:before, .pull-right.icon-passwd:before, .pull-right.icon-test:before, .pull-right.icon-file:before, .pull-right.icon-pdf:before, .pull-right.icon-start:before, .pull-right.tt_start:before, .pull-right.icon-stop:before, .pull-right.tt_stop:before, dt.pull-right.attachment:before, .pull-right.icon-attachment:before, dt.pull-right.time-entry:before, .pull-right.icon-time:before, .pull-right.icon-details:before, .pull-right.icon-zoom-in:before, .pull-right.icon-contact:before, .pull-right.icon-invoice:before, .pull-right.icon-phone:before, .pull-right.icon-email:before, .pull-right.icon-linkedin:before, .pull-right.icon-merge:before, .pull-right[class*="icon-"]:before, #context-menu li a.pull-right:before, #context-menu li .pull-right.icon-add.checklist-new-only:before, tr.project.idnt td.name span.pull-right:before, tr.issue.idnt td.subject a.pull-right:before, tr.issue.idnt td.subject .pull-right.icon-add.checklist-new-only:before, dt.pull-right.issue-closed:before, .jstEditor:not(.zen) button.pull-right.jstb_zenedit:before, .pull-right#invoice_contact_id_add_link:before {
   margin-left: .3em;
 }
 
@@ -5604,7 +5046,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #header #quick-search .icon-search:before {
   z-index: 5;
   position: absolute;
-  left: 1.6em;
+  left: 2.4em;
   top: 0.2em;
   color: #474d57;
 }
@@ -7616,10 +7058,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   color: #f66914;
 }
 
-.icon, [class*="icon-"], #context-menu li a, #context-menu li .icon-add.checklist-new-only {
-  background-image: none !important;
-}
-.icon:before, [class*="icon-"]:before, #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before {
+.icon:before, #header #quick-search .icon-search:before, #admin-menu a.projects:before, #admin-menu .projects.icon-add.checklist-new-only:before, #admin-menu dt.project:before, #admin-menu .icon-projects:before, #admin-menu a.users:before, #admin-menu .users.icon-add.checklist-new-only:before, #admin-menu .icon-user:before, #admin-menu a.trackers:before, #admin-menu .trackers.icon-add.checklist-new-only:before, #admin-menu dt.issue:before, #admin-menu .icon-issue:before, #admin-menu a.issue_statuses:before, #admin-menu .issue_statuses.icon-add.checklist-new-only:before, #admin-menu dt.issue-edit:before, #admin-menu a.settings:before, #admin-menu .settings.icon-add.checklist-new-only:before, #admin-menu dt.changeset:before, #admin-menu a.info:before, #admin-menu .info.icon-add.checklist-new-only:before, #admin-menu .icon-help:before, #admin-menu a.server_authentication:before, #admin-menu .server_authentication.icon-add.checklist-new-only:before, #admin-menu .icon-server-authentication:before, span.icon-search:before, .icon-add:before, .icon-add-payment:before, .icon-edit:before, .icon-copy:before, .icon-duplicate:before, .icon-del:before, .icon-move:before, .icon-save:before, .icon-cancel:before, .icon-multiple:before, .icon-folder:before, .open .icon-folder:before, .icon-history:before, .icon-time-add:before, .icon-stats:before, .icon-warning:before, .icon-fav:before, .icon-fav-off:before, .icon-reload:before, .icon-lock:before, .icon-unlock:before, .icon-checked:before, .icon-report:before, .icon-comment:before, .icon-summary:before, .icon-zoom-out:before, .icon-passwd:before, .icon-test:before, .icon-file:before, .icon-file.text-plain:before, .icon-file.text-x-c:before, .icon-file.text-x-csharp:before, .icon-file.text-x-java:before, .icon-file.text-x-javascript:before, .icon-file.text-x-php:before, .icon-file.text-x-ruby:before, .icon-file.text-xml:before, .icon-file.text-css:before, .icon-file.text-html:before, .icon-file.application-pdf:before, .icon-pdf:before, .icon-start:before, .tt_start:before, .icon-stop:before, .tt_stop:before, dt.attachment:before, .icon-attachment:before, dt.time-entry:before, .icon-time:before, .icon-details:before, .icon-zoom-in:before, .icon-contact:before, .icon-invoice:before, .icon-phone:before, .icon-email:before, .icon-linkedin:before, .icon-merge:before, .icon-add.checklist-new-only:before, [class*="icon-"]:before, #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before {
   margin-right: 0.3em;
   vertical-align: middle;
   position: relative;

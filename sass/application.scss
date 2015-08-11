@@ -367,10 +367,11 @@ select {
     z-index: 5;
     @include animation(fadeIn 1s);
     .icon-search {
+      @extend .icon;
       &:before {
         z-index: 5;
         position: absolute;
-        left: 1.6em;
+        left: 2.4em;
         top: 0.2em;
         color: $dark-blue;
       }
@@ -510,24 +511,31 @@ select {
     }
   }
   a.projects, dt.project, .icon-projects {
+    @extend .icon;
     @extend .fa-cubes;
   }
   a.users, .icon-user {
+    @extend .icon;
     @extend .fa-user;
   }
   a.trackers, dt.issue, .icon-issue {
+    @extend .icon;
     @extend .fa-square;
   }
   a.issue_statuses, dt.issue-edit {
+    @extend .icon;
     @extend .fa-pencil-square;
   }
   a.settings, dt.changeset {
+    @extend .icon;
     @extend .fa-gears;
   }
   a.info, .icon-help {
+    @extend .icon;
     @extend .fa-info-circle;
   }
   a.server_authentication, .icon-server-authentication {
+    @extend .icon;
     @extend .fa-key;
   }
 }
@@ -1888,6 +1896,7 @@ table.members td.group {
 }
 
 span.icon-search {
+  @extend .icon;
   @extend .fa-search;
   position: relative;
   &:before {
@@ -2480,7 +2489,6 @@ a.close-icon:hover {
 }
 
 .icon, [class*="icon-"] ,#context-menu li a {
-  background-image: none !important;
   &:before {
     @extend .fa;
     margin-right: 0.3em;
@@ -2499,46 +2507,57 @@ a.close-icon:hover {
 }
 
 .icon-add, .icon-add-payment {
+  @extend .icon;
   @extend .fa-plus-circle;
 }
 
 .icon-edit {
+  @extend .icon;
   @extend .fa-pencil;
 }
 
 .icon-copy {
+  @extend .icon;
   @extend .fa-copy;
 }
 
 .icon-duplicate {
+  @extend .icon;
   @extend .fa-clipboard;
 }
 
 .icon-del {
+  @extend .icon;
   @extend .fa-trash;
 }
 
 .icon-move {
+  @extend .icon;
   @extend .fa-crosshairs;
 }
 
 .icon-save {
+  @extend .icon;
   @extend .fa-save;
 }
 
 .icon-cancel {
+  @extend .icon;
   @extend .fa-ban;
 }
 
 .icon-multiple {
+  @extend .icon;
   @extend .fa-plus-circle;
 }
 
 .icon-folder {
+  @extend .icon;
   @extend .fa-folder;
 }
 
 .open .icon-folder {
+  @extend .icon;
   @extend .fa-folder-open;
 }
 
@@ -2547,122 +2566,152 @@ a.close-icon:hover {
 }
 
 .icon-history {
+  @extend .icon;
   @extend .fa-history;
 }
 
 .icon-time-add {
+  @extend .icon;
   @extend .fa-clock-o;
 }
 
 .icon-stats {
+  @extend .icon;
   @extend .fa-line-chart;
 }
 
 .icon-warning {
+  @extend .icon;
   @extend .fa-warning;
 }
 
 .icon-fav {
+  @extend .icon;
   @extend .fa-star;
 }
 
 .icon-fav-off {
+  @extend .icon;
   @extend .fa-star-o;
 }
 
 .icon-reload {
+  @extend .icon;
   @extend .fa-refresh;
 }
 
 .icon-lock {
+  @extend .icon;
   @extend .fa-lock;
 }
 
 .icon-unlock {
+  @extend .icon;
   @extend .fa-unlock;
 }
 
 .icon-checked {
+  @extend .icon;
   @extend .fa-check-square;
 }
 
 .icon-report {
+  @extend .icon;
   @extend .fa-pie-chart;
 }
 
 .icon-comment {
+  @extend .icon;
   @extend .fa-comment;
 }
 
 .icon-summary {
+  @extend .icon;
   @extend .fa-file-text;
 }
 
 .icon-zoom-out {
+  @extend .icon;
   @extend .fa-search-minus;
 }
 
 .icon-passwd {
+  @extend .icon;
   @extend .fa-asterisk;
 }
 
 .icon-test {
+  @extend .icon;
   @extend .fa-plus-circle;
 }
 
 .icon-file {
+  @extend .icon;
   @extend .fa-file-o;
 }
 
 .icon-file.text-plain {
+  @extend .icon;
   @extend .fa-file-text-o;
 }
 
 .icon-file.text-x-c {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-x-csharp {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-x-java {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-x-javascript {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-x-php {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-x-ruby {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-xml {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-css {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.text-html {
+  @extend .icon;
   @extend .fa-file-code-o;
 }
 
 .icon-file.application-pdf, .icon-pdf {
+  @extend .icon;
   @extend .fa-file-pdf-o;
 }
 
 .icon-start, .tt_start {
+  @extend .icon;
   @extend .fa-play;
 }
 
 .icon-stop, .tt_stop {
+  @extend .icon;
   @extend .fa-stop;
 }
 
@@ -3238,6 +3287,7 @@ dt.issue-closed, #search-results dt.issue.closed {
 }
 
 dt.attachment, .icon-attachment {
+  @extend .icon;
   @extend .fa-paperclip;
 }
 
@@ -3247,6 +3297,7 @@ dt.time-entry:before, dt.attachment:before, dt.issue-closed:before {
 }
 
 dt.time-entry, .icon-time {
+  @extend .icon;
   @extend .fa-clock-o;
 }
 
@@ -3301,6 +3352,7 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
 }
 
 .icon-details, .icon-zoom-in {
+  @extend .icon;
   @extend .fa-search-plus;
 }
 
@@ -3342,6 +3394,7 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
 }
 
 .icon-contact {
+  @extend .icon;
   @extend .fa-book;
   background: none !important;
   &:before {
@@ -3351,6 +3404,7 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
 }
 
 .icon-invoice {
+  @extend .icon;
   @extend .fa-file-excel-o;
   background: none !important;
   &:before {
@@ -3360,18 +3414,22 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
 }
 
 .icon-phone {
+  @extend .icon;
   @extend .fa-phone;
 }
 
 .icon-email {
+  @extend .icon;
   @extend .fa-envelope;
 }
 
 .icon-linkedin {
+  @extend .icon;
   @extend .fa-linkedin;
 }
 
 .icon-merge {
+  @extend .icon;
   @extend .fa-level-up;
 }
 
@@ -3468,6 +3526,7 @@ div.contact.details table.subject_header h1 {
 }
 
 .icon-add.checklist-new-only {
+  @extend .icon;
   @extend a;
   cursor: pointer;
   &:hover, &:active, &:focus {
