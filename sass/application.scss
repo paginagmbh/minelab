@@ -1973,13 +1973,12 @@ table.members td.group {
 .live_search {
   position: relative;
   font-size: 0.7em;
-  &.normal {
+  &.normal { 
     font-size: 1em;
   }
 }
 
 span.icon-search {
-  @extend .icon;
   @extend .fa-search;
   position: relative;
   &:before {
