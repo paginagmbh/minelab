@@ -1965,9 +1965,9 @@ html[dir="rtl"] .select2-dropdown-open .select2-choice .select2-arrow b {
 
 /* results */
 .select2-results {
-  max-height: 200px;
-  padding: 0 0 0 4px;
-  margin: 4px 4px 4px 0;
+  max-height: 190px;
+  padding: 0;
+  margin: 0;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
@@ -5095,10 +5095,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 #header .select2-container .select2-arrow {
   border-color: rgba(71, 77, 87, 0.5);
-}
-
-.select2-results {
-  max-height: 190px;
 }
 
 #main-menu {
