@@ -5651,6 +5651,10 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   border-color: rgba(71, 77, 87, 0.5);
 }
 
+.select2-results {
+  max-height: 190px;
+}
+
 #main-menu {
   display: block;
   background: #f2f2f2;
