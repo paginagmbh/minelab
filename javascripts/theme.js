@@ -17,16 +17,58 @@ function showAndScrollTo(id, focus) {
     $('#'+focus).focus();
   }
   /* START select2() patch */
-  $('#'+id+' select:not([multiple])').select2({
-      width: 'element',
-      minimumResultsForSearch: 20
-  });
+  initiateSelect2();
   /* END select2() patch */
   $('html, body').animate({scrollTop: $('#'+id).offset().top}, 100);
 }
 
+/* override core redmine function replaceIssueFormWith()
+ * to properly update reloaded select fields with select2()
+ */
+function replaceIssueFormWith(html){
+  var replacement = $(html);
+  $('#all_attributes input, #all_attributes textarea, #all_attributes select').each(function(){
+    var object_id = $(this).attr('id');
+    if (object_id && $(this).data('valuebeforeupdate')!=$(this).val()) {
+      replacement.find('#'+object_id).val($(this).val());
+    }
+  });
+  $('#all_attributes').empty();
+  $('#all_attributes').prepend(replacement);
+  /* START select2() patch */
+  initiateSelect2();
+  /* END select2() patch */
+}
+
 
 /* Theme functions */
+
+function initiateSelect2() {
+	/* ALL select elements
+	 *   including multiple
+	 *   excluding .expandable
+	 *   excluding workflow permission selects
+	 */
+	var selector = 'select:not(.expandable):not([id*="permissions_"])';
+	
+	// add style attribute with percentage width to all select2() selects for responsiveness
+	$(selector).each(function() {
+		$(this).parent().hide();
+		// read css width as percentage (parent needs to be hidden)
+		var cssWidth = $(this).css('width');
+		$(this).parent().show();
+		if(cssWidth != '0px') {
+			$(this).css('width', cssWidth);
+		} else {
+			$(this).css('width', 'auto');
+		}
+	});
+	
+	$(selector).select2({
+		dropdownAutoWidth: true,
+		minimumResultsForSearch: 20
+	});
+}
 
 jQuery(document).ready(function($){
 	$('#top-menu, #header').wrapInner('<div class="outer-container"></div>');
@@ -40,11 +82,8 @@ jQuery(document).ready(function($){
 	$(window).load(function(){
 		$('input.autocomplete, input.live_search_field, input#q').wrap('<span class="icon-search"></span>');
 
-		$('select:not([multiple])').select2({
-			width: 'element',
-			minimumResultsForSearch: 20
-		});
-
+		initiateSelect2();
+		
 		$('#account:not(.cms) a').each(function() {
 			$(this).attr('title', $(this).text()).text('');
 		});
