@@ -5993,9 +5993,6 @@ table.list td {
   border-bottom: 1px solid #f2f2f2;
   text-align: left !important;
 }
-table.list td.name {
-  font-weight: 600;
-}
 table.list td.id {
   width: 2%;
   text-align: center;
