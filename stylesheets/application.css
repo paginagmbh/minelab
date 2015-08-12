@@ -1779,7 +1779,6 @@ html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
 .select2-drop {
   width: 100%;
   margin-top: -1px;
-  padding-top: .3em;
   position: absolute;
   z-index: 9999;
   top: 100%;
@@ -1813,10 +1812,6 @@ html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
 .select2-drop-auto-width {
   border-top: 1px solid #aaa;
   width: auto;
-}
-
-.select2-drop-auto-width .select2-search {
-  padding-top: 4px;
 }
 
 .select2-container .select2-choice .select2-arrow {
@@ -1854,8 +1849,7 @@ html[dir="rtl"] .select2-container .select2-choice .select2-arrow b {
   width: 100%;
   min-height: 26px;
   margin: 0;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: 7px 5px;
   position: relative;
   z-index: 10000;
   white-space: nowrap;
