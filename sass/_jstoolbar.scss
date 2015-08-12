@@ -1,9 +1,9 @@
 .jstElements {
   button[type="button"] {
     background: #fff;
-    color: #333;
-    width: 1.8em;
-    height: 1.8em;
+    color: #555;
+    width: 2em;
+    height: 2em;
     border-radius: 4px;
     padding: 0;
     font-size: 0.9em;
@@ -12,6 +12,9 @@
     &:before {
       @extend .fa;
       text-align: center;
+    }
+    &:hover, &:active, &:focus {
+      color: #333;
     }
   }
   .jstb_strong {

@@ -105,21 +105,21 @@ select {
   border: 1px solid $dark-blue-green;
   background: $blue-green;
   color: white;
-  padding: 0.5em 1.5em;
+  padding: 0.3em 1.5em 0.5em;
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
   font-size: 1em;
-  height: 35px;
+  height: 2.5em;
   &:hover {
     background: $dark-blue-green;
     border-color: $dark-blue-green;
   }
   + a, + a:hover {
     font-size: 1em;
-    padding: 8px 1.5em;
+    padding: 0.4em 1.5em 0.5em;
     @extend .button;
   }
 }
@@ -806,6 +806,7 @@ div.modal {
   p.buttons {
     text-align: right;
     margin-bottom: 0;
+	font-size: 0.8em;
   }
 }
 
