@@ -75,7 +75,7 @@ a {
 }
 
 #{$all-text-inputs}, #{$all-text-inputs-hover}, textarea, textarea:hover, select, select:hover {
-  padding: 0.5em;
+  padding: 0.3em 0.4em 0.4em;
   border-radius: 4px;
   border: 1px solid $medium-grey;
   @include transition-duration(0.3s);

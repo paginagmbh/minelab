@@ -4792,7 +4792,7 @@ a.collapsible.collapsed, .collapsible.collapsed.icon-add.checklist-new-only {
 }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover, textarea, textarea:hover, select, select:hover {
-  padding: 0.5em;
+  padding: 0.3em 0.4em 0.4em;
   border-radius: 4px;
   border: 1px solid #cccccc;
   -webkit-transition-duration: 0.3s;
