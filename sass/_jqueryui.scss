@@ -429,7 +429,6 @@
 	margin: -1px;
 	background: #5f83b9;
 	color: #FFFFFF;
-	text-shadow: 0px 1px 1px #234386;
 	border-color: #466086;
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
@@ -459,11 +458,7 @@ button.ui-button-icons-only { width: 3.7em; }
 }
 
 /*states*/
-.ui-button.ui-state-hover {
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
-}
+.ui-button.ui-state-hover {}
 .ui-button.ui-state-focus {
 	outline: none;
 	color: #1c4257;
@@ -475,9 +470,6 @@ button.ui-button-icons-only { width: 3.7em; }
 		background: -o-linear-gradient(top, #b9e0f5 0%,#92bdd6 100%); /* Opera11.10+ */
 		background: -ms-linear-gradient(top, #b9e0f5 0%,#92bdd6 100%); /* IE10+ */
 		background: linear-gradient(top, #b9e0f5 0%,#92bdd6 100%); /* W3C */
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
 }
 
 /*button text element */
@@ -645,7 +637,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; opacity: .8; filter:Alpha(Opacity=80); }
 .ui-datepicker table .ui-state-highlight { border-color: #5F83B9; }
-.ui-datepicker table .ui-state-hover { background: #5F83B9; color: #FFF; text-shadow: 0 1px 1px #234386; -webkit-box-shadow: 0 0px 0 rgba(255,255,255,0.6) inset; -moz-box-shadow: 0 0px 0 rgba(255,255,255,0.6) inset; box-shadow: 0 0px 0 rgba(255,255,255,0.6) inset; border-color: #5F83B9; }
+.ui-datepicker table .ui-state-hover { background: #5F83B9; color: #FFF; border-color: #5F83B9; }
 .ui-datepicker-calendar .ui-state-default { background: transparent; border-color: #FFF; }
 .ui-datepicker-calendar .ui-state-active { background: #5F83B9; border-color: #5F83B9; color: #FFF; font-weight: bold; text-shadow: 0 1px 1px #234386; }
 

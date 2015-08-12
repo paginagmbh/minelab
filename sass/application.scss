@@ -101,7 +101,7 @@ select {
   }
 }
 
-#{$all-button-inputs}, #{$all-button-inputs-hover}, .button, .button:hover, .ui-datepicker-buttonpane button.ui-state-default {
+#{$all-button-inputs}, #{$all-button-inputs-hover}, .button, .button:hover, .ui-datepicker-buttonpane button.ui-state-default, .ui-dialog-buttonset button.ui-state-default {
   border: 1px solid $dark-blue-green;
   background: $blue-green;
   color: white;
