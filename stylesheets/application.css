@@ -5442,7 +5442,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   cursor: default;
   position: relative;
   z-index: 999;
-  height: 3.15em;
+  height: 2.35em;
 }
 #top-menu::after {
   clear: both;
@@ -5505,8 +5505,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #top-menu a, #top-menu .icon-add.checklist-new-only {
   color: #979da7;
   font-size: 0.9em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;

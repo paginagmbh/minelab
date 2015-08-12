@@ -146,7 +146,7 @@ select {
   cursor: default;
   position: relative;
   z-index: 999;
-  height: 3.15em;
+  height: 2.35em;
   .outer-container {
     ul.menu-children {
       width: 26em;
@@ -192,8 +192,8 @@ select {
   a {
     color: $grey-blue;
     font-size: 0.9em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
     @include transition-duration(0.3s);
     display: inline-block;
     &:hover, &:focus, &:active {
