@@ -833,7 +833,7 @@ table {
       padding: 0.5em;
       font-size: 1.2em;
       border-bottom: 1px solid $medium-grey;
-      font-weight: 500;
+      font-weight: 700;
       color: $text;
     }
     td {
@@ -1410,7 +1410,7 @@ div.issue div.subject p {
 div.issue div.subject h3 {
   margin: 0 0 0.1em;
   font-size: 1.8em;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 span.private {
@@ -1832,7 +1832,7 @@ p.pagination {
     }
     span {
       color: #545454;
-      font-weight: bold;
+      font-weight: 700;
     }
   }
 
@@ -1863,7 +1863,7 @@ p.pagination {
     border-bottom: 1px dotted $light-grey;
   }
   label {
-    font-weight: 600;
+    font-weight: 700;
     float: left;
     text-align: right;
     margin-left: -15em;
@@ -2389,7 +2389,7 @@ p.progress-info {
           background-color: white;
           border-color: $medium-grey;
           box-shadow: 0 2px 0 white;
-          font-weight: 600;
+          font-weight: 700;
           color: $text;
         }
       }
