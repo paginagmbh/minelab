@@ -6311,33 +6311,43 @@ p.pagination {
   padding-left: 0;
   margin: 20px 0 20px 10px;
 }
-p.pagination .page, p.pagination .next, p.pagination .previous {
+p.pagination .page, p.pagination .next, p.pagination .previous, p.pagination .spacer {
   position: relative;
   float: left;
   padding: 6px 12px;
   margin-left: -1px;
-  line-height: 1.42857143;
-  color: #337ab7;
+  line-height: 1.4;
+  color: #446e9b;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-right: 5px;
 }
-p.pagination .page:hover, p.pagination .page:focus, p.pagination .next:hover, p.pagination .next:focus, p.pagination .previous:hover, p.pagination .previous:focus {
+p.pagination .page:hover, p.pagination .page:focus, p.pagination .next:hover, p.pagination .next:focus, p.pagination .previous:hover, p.pagination .previous:focus, p.pagination .spacer:hover, p.pagination .spacer:focus {
   z-index: 3;
   color: #23527c;
   background-color: #eee;
   border-color: #ddd;
 }
-p.pagination .page:first-child, p.pagination .next:first-child, p.pagination .previous:first-child {
+p.pagination .page:first-child, p.pagination .next:first-child, p.pagination .previous:first-child, p.pagination .spacer:first-child {
   margin-left: 0;
+}
+p.pagination .spacer {
+  /* reset some settings from above */
+  color: #333333;
+  border: none;
+  padding: 6px;
+}
+p.pagination .spacer:hover, p.pagination .spacer:focus {
+  background-color: white;
+  color: #333333;
 }
 p.pagination .page.current, p.pagination .page.current:hover, p.pagination .page.current:focus {
   z-index: 2;
   color: #fff;
   cursor: default;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #446e9b;
+  border-color: #446e9b;
 }
 p.pagination .items, p.pagination .per-page {
   display: inline-block;
@@ -6346,7 +6356,7 @@ p.pagination .items, p.pagination .per-page {
   float: left;
 }
 p.pagination .per-page a, p.pagination .per-page .icon-add.checklist-new-only {
-  color: #337ab7;
+  color: #446e9b;
 }
 p.pagination .per-page span {
   color: #545454;

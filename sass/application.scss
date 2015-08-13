@@ -1791,13 +1791,13 @@ p.pagination {
   padding-left: 0;
   margin: 20px 0 20px 10px;
 
-  .page, .next, .previous {
+  .page, .next, .previous, .spacer {
     position: relative;
     float: left;
     padding: 6px 12px;
     margin-left: -1px;
-    line-height: 1.42857143;
-    color: #337ab7;
+    line-height: 1.4;
+    color: $blue;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -1814,12 +1814,23 @@ p.pagination {
       margin-left: 0;
     }
   }
+  .spacer {
+    /* reset some settings from above */
+    color: $text;
+    border: none;
+    padding: 6px;
+    
+    &:hover, &:focus {
+      background-color: white;
+      color: $text;
+    }
+  }
   .page.current, .page.current:hover, .page.current:focus {
     z-index: 2;
     color: #fff;
     cursor: default;
-    background-color: #337ab7;
-    border-color: #337ab7;
+    background-color: $blue;
+    border-color: $blue;
   }
 
   .items, .per-page {
@@ -1831,7 +1842,7 @@ p.pagination {
 
   .per-page {
     a {
-      color: #337ab7;
+      color: $blue;
     }
     span {
       color: #545454;
