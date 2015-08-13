@@ -2735,6 +2735,9 @@ a.close-icon:hover {
 .icon-add, .icon-add-payment {
   @extend .icon;
   @extend .fa-plus-circle;
+  &:hover, &:active, &:focus {
+    color: $blue-green;
+  }
 }
 
 .icon-edit {
@@ -2755,7 +2758,7 @@ a.close-icon:hover {
 .icon-del {
   @extend .icon;
   @extend .fa-trash;
-  &:hover {
+  &:hover, &:active, &:focus {
     color: $red;
   }
 }
@@ -2837,6 +2840,11 @@ a.close-icon:hover {
 .icon-unlock {
   @extend .icon;
   @extend .fa-unlock;
+}
+
+.icon-user {
+  @extend .icon;
+  @extend .fa-user;
 }
 
 .icon-checked {
