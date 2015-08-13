@@ -926,20 +926,22 @@ tr.entry td.size {
 }
 
 tr span.expander {
-  @extend .fa-plus-circle;
+  @extend .fa-plus-square-o;
   cursor: pointer;
   &:before {
     @extend .fa;
     margin-right: 0.5em;
+    margin-left: 0.5em;
   }
 }
 
 tr.open span.expander {
-  @extend .fa-minus-circle;
+  @extend .fa-minus-square-o;
   cursor: pointer;
   &:before {
     @extend .fa;
     margin-right: 0.5em;
+    margin-left: 0.5em;
   }
 }
 
@@ -3430,7 +3432,7 @@ tr.entry td.age, div#version-summary th, div#version-summary td.total-hours {
 }
 
 tr.entry.file td.filename a, tr.entry.file td.filename_no_report a {
-  margin-left: 16px;
+  margin-left: 2.2em;
 }
 
 tr.changeset td.author, tr.changeset td.committed_on {

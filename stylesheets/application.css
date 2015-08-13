@@ -140,7 +140,7 @@ html {
 ----------------------------------*/
 .ui-widget {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .ui-widget .ui-widget {
@@ -2832,11 +2832,11 @@ a.close-icon:before,
   content: "\f054";
 }
 
-.fa-plus-circle:before, tr span.expander:before, span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-new-only:before, span.add_attachment a:before, span.add_attachment .icon-add.checklist-new-only:before, .icon-add:before, .icon-add-payment:before, .icon-multiple:before, .icon-test:before, #invoice_contact_id_add_link:before, select + a[data-method]:before, select + [data-method].icon-add.checklist-new-only:before {
+.fa-plus-circle:before, span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-new-only:before, span.add_attachment a:before, span.add_attachment .icon-add.checklist-new-only:before, .icon-add:before, .icon-add-payment:before, .icon-multiple:before, .icon-test:before, #invoice_contact_id_add_link:before, select + a[data-method]:before, select + [data-method].icon-add.checklist-new-only:before {
   content: "\f055";
 }
 
-.fa-minus-circle:before, tr.open span.expander:before {
+.fa-minus-circle:before {
   content: "\f056";
 }
 
@@ -3718,7 +3718,7 @@ div.members h3:before {
   content: "\f146";
 }
 
-.fa-minus-square-o:before {
+.fa-minus-square-o:before, tr.open span.expander:before {
   content: "\f147";
 }
 
@@ -4029,7 +4029,7 @@ div.members h3:before {
   content: "\f195";
 }
 
-.fa-plus-square-o:before, .toggle-multiselect:before {
+.fa-plus-square-o:before, tr span.expander:before, .toggle-multiselect:before {
   content: "\f196";
 }
 
@@ -5504,6 +5504,7 @@ tr span.expander {
 }
 tr span.expander:before {
   margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 tr.open span.expander {
@@ -5511,6 +5512,7 @@ tr.open span.expander {
 }
 tr.open span.expander:before {
   margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 tr.changeset {
@@ -7714,7 +7716,7 @@ tr.entry td.age, div#version-summary th, div#version-summary td.total-hours {
 }
 
 tr.entry.file td.filename a, tr.entry.file td.filename .icon-add.checklist-new-only, tr.entry.file td.filename_no_report a, tr.entry.file td.filename_no_report .icon-add.checklist-new-only {
-  margin-left: 16px;
+  margin-left: 2.2em;
 }
 
 tr.changeset td.author, tr.changeset td.committed_on {
