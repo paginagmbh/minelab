@@ -1130,6 +1130,37 @@ table.query-columns td.buttons input[type=button] {
   width: 35px;
 }
 
+td.buttons a {
+  &:before {
+    @extend .fa;
+    font-size: 1.2em;
+  }
+  &[class*="add-"] {
+    @extend .fa-plus-circle;
+    &:hover {
+      color: $blue-green;
+    }
+    img {
+      display: none;
+    }
+  }
+  &[class*="delete-"], &[data-method="delete"] {
+    @extend .fa-trash;
+    &:hover {
+      color: $red;
+    }
+    img {
+      display: none;
+    }
+  }
+  &[class*="edit-"], &[href$="/edit"] {
+    @extend .fa-pencil;
+    img {
+      display: none;
+    }
+  }
+}
+
 h3.version, td.fixed-version {
   margin-top: 0;
   @extend .fa-cube;
