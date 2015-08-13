@@ -3821,6 +3821,12 @@ select + a[data-method] {
     display: none;
   }
 }
+select + a.icon-reload {
+  margin-left: 1em;
+}
+p select + label {
+  margin-left: 1em;
+}
 
 .icon-add.checklist-new-only {
   @extend .icon;

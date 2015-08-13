@@ -8032,6 +8032,14 @@ select + a[data-method] img, select + [data-method].icon-add.checklist-new-only 
   display: none;
 }
 
+select + a.icon-reload, select + .icon-reload.icon-add.checklist-new-only {
+  margin-left: 1em;
+}
+
+p select + label {
+  margin-left: 1em;
+}
+
 .icon-add.checklist-new-only {
   cursor: pointer;
 }
