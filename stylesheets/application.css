@@ -4730,6 +4730,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
   min-height: 100%;
