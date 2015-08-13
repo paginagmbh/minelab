@@ -137,13 +137,6 @@ select {
   }
 }
 
-#{$all-button-inputs-focus}, #{$all-button-inputs-active}, .button:focus, .button:active {
-  box-shadow: 0px 3px 5px rgba(black, 0.125) inset;
-  + a:active, a:focus {
-    @extend .button:active;
-  }
-}
-
 /* Layout */
 
 .outer-container {
@@ -2994,9 +2987,6 @@ td.username img.gravatar {
 #activity + a {
   @extend .button;
   margin-top: 2em;
-  &:active, &:focus {
-    @extend .button:active;
-  }
 }
 
 .hascontextmenu {
@@ -3750,9 +3740,6 @@ div.contact.details table.subject_header h1 {
   + p > a {
     @extend .button;
     margin-top: 2em;
-    &:active, &:focus {
-      @extend .button:active;
-    }
   }
 }
 
@@ -3760,9 +3747,6 @@ div.contact.details table.subject_header h1 {
   a {
     @extend .button;
     margin-top: 2em;
-    &:active, &:focus {
-      @extend .button:active;
-    }
   }
 }
 
