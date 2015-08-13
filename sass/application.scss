@@ -1483,10 +1483,12 @@ fieldset#filters td.add-filter {
 }
 
 .toggle-multiselect {
-  background: url(../images/bullet_toggle_plus.png) no-repeat 0 40%;
-  padding-left: 8px;
-  margin-left: 0;
+  margin-left: 0.5em;
   cursor: pointer;
+  @extend .fa-plus-square-o;
+  &:before {
+    @extend .fa;
+  }
 }
 
 .buttons {
@@ -3751,15 +3753,15 @@ div.contact.details table.subject_header h1 {
   }
 }
 
-select + a[data-method] img {
-  display: none;
-}
 select + a[data-method] {
   font-size: 1.1em;
   margin-left: 0.5em;
   @extend .fa-plus-circle;
   &:before {
     @extend .fa;
+  }
+  img {
+    display: none;
   }
 }
 
