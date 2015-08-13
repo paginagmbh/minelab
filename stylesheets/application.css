@@ -5900,6 +5900,7 @@ textarea.wiki-edit {
   width: 99% !important;
   resize: vertical;
   margin-bottom: 1em;
+  line-height: 1.3;
 }
 
 div.issue {
