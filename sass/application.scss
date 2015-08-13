@@ -2102,8 +2102,11 @@ select.bool_cf {
 }
 
 table.members td.group {
-  padding-left: 20px;
-  background: url(../images/group.png) no-repeat 0 50%;
+  @extend .fa-users;
+  &:before {
+    @extend .fa;
+    margin-right: 0.5em;
+  }
 }
 
 .live_search {
