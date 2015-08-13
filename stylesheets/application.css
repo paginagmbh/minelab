@@ -5694,7 +5694,8 @@ table.query-columns td.buttons {
 }
 
 table.query-columns td.buttons input[type=button] {
-  width: 35px;
+  width: 2.5em;
+  padding: 0;
 }
 
 td.buttons a:before, td.buttons .icon-add.checklist-new-only:before {
