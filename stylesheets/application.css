@@ -139,7 +139,8 @@ html {
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-  font-size: 1.1em;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
 }
 
 .ui-widget .ui-widget {
@@ -1343,7 +1344,7 @@ button.ui-button::-moz-focus-inner {
 
 .ui-datepicker .ui-datepicker-header {
   position: relative;
-  padding: .35em 0;
+  padding: .7em 0;
   border: none;
   border-bottom: 1px solid #B6B6B6;
   -moz-border-radius: 0;
@@ -1353,9 +1354,9 @@ button.ui-button::-moz-focus-inner {
 
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
   position: absolute;
-  top: 6px;
-  width: 1.8em;
-  height: 1.8em;
+  top: 5px;
+  width: 2em;
+  height: 2em;
 }
 
 .ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
@@ -1408,7 +1409,7 @@ button.ui-button::-moz-focus-inner {
 
 .ui-datepicker td {
   border: 0;
-  padding: 1px;
+  padding: 0px;
 }
 
 .ui-datepicker td span, .ui-datepicker td a, .ui-datepicker td .icon-add.checklist-new-only {
@@ -1456,7 +1457,7 @@ button.ui-button::-moz-focus-inner {
 
 .ui-datepicker-calendar .ui-state-default {
   background: transparent;
-  border-color: #FFF;
+  border-color: transparent;
 }
 
 .ui-datepicker-calendar .ui-state-active {
