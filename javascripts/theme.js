@@ -53,13 +53,19 @@ function initiateSelect2() {
 	
 	// add style attribute with percentage width to all select2() selects for responsiveness
 	$(selector).each(function() {
+        var cssPixelWidth = $(this).css('width');
 		$(this).parent().hide();
 		// read css width as percentage (parent needs to be hidden)
-		var cssWidth = $(this).css('width');
+		var cssPercentWidth = $(this).css('width');
 		$(this).parent().show();
-		if(cssWidth != '0px') {
-			$(this).css('width', cssWidth);
+		if(cssPercentWidth != '0px') {
+            // use percentage width
+			$(this).css('width', cssPercentWidth);
+		} else if(cssPixelWidth != '0px') {
+            // use pixel width
+			$(this).css('width', cssPixelWidth);
 		} else {
+            // use auto width
 			$(this).css('width', 'auto');
 		}
 	});
