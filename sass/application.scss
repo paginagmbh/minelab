@@ -636,7 +636,6 @@ select {
       }
     }
     .contextual {
-      margin-right: 1em;
       float: right;
     }
     ul {
@@ -695,7 +694,7 @@ select {
     position: relative;
     .contextual {
       float: right;
-      top: 1.6em;
+      top: 2.4em;
       position: relative;
       + .breadcrumb {
         position: relative;
@@ -1136,9 +1135,13 @@ table.query-columns {
   }
   
   select {
-    width: auto;
+    width: auto !important;
     min-width: 150px;
   }
+}
+
+select#group_by {
+  width: 40%;
 }
 
 td.buttons a {
@@ -1250,7 +1253,8 @@ div.projects h3 {
 
   a.delete {
     opacity: 0.4;
-    vertical-align: middle;
+    vertical-align: baseline;
+    padding: 0;
     @extend .fa-trash;
     &:before {
       @extend .fa;
@@ -1290,6 +1294,17 @@ span.search_for_watchers a, span.add_attachment a {
     @extend .fa;
     margin-right: 0.5em;
     margin-left: 0.5em;
+  }
+}
+
+#relations .contextual a,
+#issue_tree .contextual a,
+#watchers .contextual a {
+  vertical-align: middle;
+  @extend .fa-plus-circle;
+  &:before {
+    @extend .fa;
+    margin-right: 0.5em;
   }
 }
 
