@@ -705,6 +705,23 @@ select {
       a:before {
         margin-left: 1em;
       }
+      a.icon-fav {
+        color: $orange;
+        &:hover {
+          color: $blue;
+          &:before {
+            @extend .fa-star-o;
+          }
+        }
+      }
+      a.icon-fav-off {
+        &:hover {
+          color: $orange;
+          &:before {
+            @extend .fa-star;
+          }
+        }
+      }
     }
     >h2:first-of-type {
       font-weight: 400;
