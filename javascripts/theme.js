@@ -58,7 +58,7 @@ function initiateSelect2() {
 		// read css width as percentage (parent needs to be hidden)
 		var cssPercentWidth = $(this).css('width');
 		$(this).parent().show();
-		if(cssPercentWidth != '0px') {
+		if(cssPercentWidth.indexOf('%')>-1) {
             // use percentage width
 			$(this).css('width', cssPercentWidth);
 		} else if(cssPixelWidth != '0px') {
