@@ -1119,16 +1119,21 @@ table.boards td.last-message {
 table.query-columns {
   border-collapse: collapse;
   border: 0;
-}
-
-table.query-columns td.buttons {
-  vertical-align: middle;
-  text-align: center;
-}
-
-table.query-columns td.buttons input[type=button] {
-  width: 2.5em;
-  padding: 0;
+  
+  td.buttons {
+    vertical-align: middle;
+    text-align: center;
+    
+    input[type=button] {
+      width: 2.5em;
+      padding: 0;
+    }
+  }
+  
+  select {
+    width: auto;
+    min-width: 150px;
+  }
 }
 
 td.buttons a {
@@ -1483,13 +1488,19 @@ fieldset#date-range p {
   margin: 2px 0;
 }
 
-fieldset#filters table {
-  border-collapse: collapse;
+fieldset#filters select {
+  width: 90%;
+  &.add_filter_select {
+    width: 60%;
+  }
 }
 
-fieldset#filters table td {
-  vertical-align: middle;
-  padding: 0;
+fieldset#filters table {
+  border-collapse: collapse;
+  td {
+    vertical-align: middle;
+    padding: 0;
+  }
 }
 
 fieldset#filters tr.filter {
@@ -3565,7 +3576,7 @@ div#search-results-counts ul {
   margin-top: 0.5em;
 }
 
-fieldset#filters td.values input, table.progress td {
+table.progress td {
   height: 1em;
 }
 
