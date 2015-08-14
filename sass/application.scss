@@ -1721,7 +1721,7 @@ dt.document {
 }
 
 
-div#roadmap h3.version:not(:first-child) {
+div#roadmap article.version-article:not(:first-child) {
   border-top: 1px solid #ccc;
   margin-top: 3em;
   padding-top: 2em;
