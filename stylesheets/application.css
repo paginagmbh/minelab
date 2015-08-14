@@ -4680,7 +4680,7 @@ li.change.change-D {
 }
 
 #context-menu a.icon-checked, #context-menu .icon-checked.icon-add.checklist-new-only {
-  background: url(../images/toggle_check.png) no-repeat 3px 40%;
+  background: none !important;
 }
 
 /* selected element */
