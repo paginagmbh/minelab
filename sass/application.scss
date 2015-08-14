@@ -1649,7 +1649,7 @@ div#activity dl, #search-results {
 
 div#activity dd, #search-results dd {
   margin-bottom: 1em;
-  padding-left: 2.8em;
+  padding-left: 1.6em;
   font-size: 0.9em;
 }
 
@@ -1658,13 +1658,15 @@ div#activity dt, #search-results dt {
   line-height: 18px;
 }
 
-div#activity dt.me .time {
-  border-bottom: 1px solid $medium-grey;
-}
-
 div#activity dt .time {
+  border-bottom: 1px solid $medium-grey;
   color: $medium-grey;
   font-size: 80%;
+  vertical-align: text-top;
+  margin-right: 0.4em;
+  display: inline-block;
+  line-height: 1.2;
+  padding-top: 0.2em;
 }
 
 div#activity span.project:after, #search-results span.project:after {
@@ -1677,11 +1679,11 @@ div#activity dd span.description, #search-results dd span.description {
 }
 
 div#activity dt.grouped {
-  margin-left: 2.8em;
+  margin-left: 2.6em;
 }
 
 div#activity dd.grouped {
-  margin-left: 9em;
+  margin-left: 6em;
 }
 
 #search-results dd {
@@ -3080,7 +3082,7 @@ td.username img.gravatar {
 
 #activity dt img.gravatar {
   float: left;
-  margin: 0 1.2em 1.2em 0;
+  margin: 0 1em 1.2em 0;
 }
 
 .icon-gravatar {
@@ -3607,7 +3609,7 @@ div.journal {
   top: initial!important;
 }
 
-#activity dt.issue-note, #activity dt.wiki-page {background-image: none!important;}
+#activity dt, #activity dt.wiki-page {background-image: none!important;}
 
 div#search-results-counts ul {
   margin-top: 0.5em;
@@ -3622,7 +3624,7 @@ div#activity dd .description, #search-results dd .description, ul.properties li 
 }
 
 dt.issue-closed, #search-results dt.issue.closed {
-  @extend .fa-ticket;
+  @extend .fa-ban;
 }
 
 dt.attachment, .icon-attachment {
@@ -3630,14 +3632,42 @@ dt.attachment, .icon-attachment {
   @extend .fa-paperclip;
 }
 
-dt.time-entry:before, dt.attachment:before, dt.issue-closed:before {
-  @extend .fa;
-  margin-right: 0.5em;
+dt.time-entry, dt.attachment,
+dt.issue-closed, dt.changeset,
+dt.issue-note, dt.issue-edit,
+dt.issue, dt.news {
+  &:before {
+    @extend .fa;
+    margin-right: 0.5em;
+    font-size: 1em;
+    width: 13px;
+    vertical-align: text-bottom;
+  }
 }
 
 dt.time-entry, .icon-time {
   @extend .icon;
   @extend .fa-clock-o;
+}
+dt.changeset {
+  @extend .icon;
+  @extend .fa-code-fork;
+}
+dt.issue-note {
+  @extend .icon;
+  @extend .fa-comments-o;
+}
+dt.issue-edit {
+  @extend .icon;
+  @extend .fa-pencil;
+}
+dt.issue {
+  @extend .icon;
+  @extend .fa-ticket;
+}
+dt.news {
+  @extend .icon;
+  @extend .fa-bullhorn;
 }
 
 div#roadmap .related-issues, div#version-summary fieldset, #projects-index ul.projects li.root, div.wiki > ul, div.wiki > ol {
