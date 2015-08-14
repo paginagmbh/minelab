@@ -1490,7 +1490,7 @@ fieldset#date-range p {
 
 fieldset#filters select {
   width: 90%;
-  &.add_filter_select {
+  &#add_filter_select {
     width: 60%;
   }
 }

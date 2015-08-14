@@ -6015,7 +6015,7 @@ fieldset#date-range p {
 fieldset#filters select {
   width: 90%;
 }
-fieldset#filters select.add_filter_select {
+fieldset#filters select#add_filter_select {
   width: 60%;
 }
 
