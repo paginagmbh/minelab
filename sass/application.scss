@@ -836,6 +836,13 @@ table {
       border-bottom: 1px solid $medium-grey;
       font-weight: 700;
       color: $text;
+      &.checkbox a {
+        @extend .fa;
+        @extend .fa-check-square-o;
+        img {
+          display: none;
+        }
+      }
     }
     td {
       padding: 0.6em 0 0.6em 0.6em;
@@ -850,7 +857,6 @@ table {
       }
       &.checkbox {
         width: 15px;
-        padding: 2px 0 0;
         vertical-align: middle;
       }
       &.buttons {
