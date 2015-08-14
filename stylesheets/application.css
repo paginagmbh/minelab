@@ -5646,7 +5646,7 @@ table p {
 }
 
 .even, tr:nth-child(2n+2) {
-  background-color: #f9f9f9 !important;
+  background-color: #f9f9f9;
 }
 
 a.sort, .sort.icon-add.checklist-new-only {
