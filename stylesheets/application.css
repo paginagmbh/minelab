@@ -7258,7 +7258,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
 }
 
 .icon-del:hover, .icon-del:active, .icon-del:focus {
-  color: #e74c3c;
+  color: #e74c3c !important;
 }
 
 .icon-checked.found {

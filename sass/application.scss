@@ -2801,7 +2801,7 @@ a.close-icon:hover {
   @extend .icon;
   @extend .fa-trash;
   &:hover, &:active, &:focus {
-    color: $red;
+    color: $red !important;
   }
 }
 
