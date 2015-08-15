@@ -514,11 +514,10 @@ select {
     margin-bottom: 0.2em;
     &:before {
       @extend .fa;
-      margin-right: 0.5em;
-      width: 1.5em;
-      text-align: center;
-      position: relative;
-      top: -1px;
+      margin-right: 0.3em !important;
+      font-size: 1em !important;
+      width: 1.4em;
+      text-align: left;
     }
     &.project-aliases {
       @extend .fa-arrow-circle-right;
@@ -574,11 +573,11 @@ select {
     @extend .icon;
     @extend .fa-user;
   }
-  a.trackers, dt.issue, .icon-issue {
+  a.issue_statuses, dt.issue, .icon-issue {
     @extend .icon;
-    @extend .fa-square;
+    @extend .fa-ticket;
   }
-  a.issue_statuses, dt.issue-edit {
+  a.trackers, dt.issue-edit {
     @extend .icon;
     @extend .fa-pencil-square;
   }
@@ -1204,7 +1203,7 @@ h3.version, td.fixed-version {
 
 div.issues h3 {
   margin-top: 0;
-  @extend .fa-square;
+  @extend .fa-ticket;
   &:before {
     @extend .fa;
     margin-right: 0.5em;
