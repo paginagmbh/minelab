@@ -1190,6 +1190,10 @@ td.buttons a {
       display: none;
     }
   }
+  &.icon-rename {
+    @extend .fa-retweet;
+    background-image: none;
+  }
 }
 
 h3.version, td.fixed-version {

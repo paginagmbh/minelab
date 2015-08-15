@@ -2989,7 +2989,7 @@ a.close-icon:before,
   content: "\f078";
 }
 
-.fa-retweet:before {
+.fa-retweet:before, td.buttons a.icon-rename:before, td.buttons .icon-rename.icon-add.checklist-new-only:before {
   content: "\f079";
 }
 
@@ -5749,6 +5749,9 @@ td.buttons a[class*="delete-"] img, td.buttons [class*="delete-"].icon-add.check
 }
 td.buttons a[class*="edit-"] img, td.buttons [class*="edit-"].icon-add.checklist-new-only img, td.buttons a[href$="/edit"] img, td.buttons [href$="/edit"].icon-add.checklist-new-only img {
   display: none;
+}
+td.buttons a.icon-rename, td.buttons .icon-rename.icon-add.checklist-new-only {
+  background-image: none;
 }
 
 h3.version, td.fixed-version {
