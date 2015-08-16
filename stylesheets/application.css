@@ -6062,6 +6062,9 @@ span.private {
   border-radius: 2px;
   padding: 0 3px;
 }
+h3 span.private {
+  float: right;
+}
 
 div.issue table.attributes td {
   width: 28%;
@@ -6184,6 +6187,7 @@ div#issue-changesets p {
   margin: 0 0 -3px 4px;
 }
 
+div.issue.private,
 div.journal.private-notes {
   border-color: #e74c3c;
 }

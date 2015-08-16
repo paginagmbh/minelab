@@ -1525,6 +1525,10 @@ span.private {
   margin-right: 2px;
   border-radius: 2px;
   padding: 0 3px;
+  
+  h3 & {
+    float: right;
+  }
 }
 
 div.issue table.attributes td {
@@ -1662,6 +1666,7 @@ div#issue-changesets {
   }
 }
 
+div.issue.private,
 div.journal.private-notes {
   border-color: $red;
 }
