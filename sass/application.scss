@@ -69,11 +69,14 @@ a {
     text-decoration: line-through;
   }
   &.collapsible {
-    padding-left: 1em;
-    background: url(../images/arrow_expanded.png) no-repeat -3px 40%;
+    @extend .icon;
+    @extend .fa-chevron-circle-down;
+    &:before {
+      font-size: 0.9em !important;
+    }
   }
   &.collapsible.collapsed {
-    background: url(../images/arrow_collapsed.png) no-repeat -5px 40%;
+    @extend .fa-chevron-circle-right;
   }
 }
 
