@@ -2133,6 +2133,30 @@ div.attachments span.author {
   color: #888888;
 }
 
+body.controller-attachments {
+  div.attachments {
+    a[href^="/attachments/download/"] {
+      @extend .fa;
+      &:before {
+        @extend .fa-download;
+        margin-right: 0.5em;
+      }
+    }
+  }
+  table.filecontent {
+    width: 100%;
+    td.line-code {
+      padding-left: 0.8em;
+      pre {
+        font-family: "Lekton", monospace;
+        font-size: 14px;
+        color: black;
+      }
+    }
+  }
+}
+
+
 div.thumbnails {
   margin-top: 0.6em;
 }
