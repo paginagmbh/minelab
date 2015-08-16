@@ -5166,11 +5166,13 @@ button + a, button + .icon-add.checklist-new-only, button + a:hover, button + .i
 }
 #main-menu.sticky li a:hover:not(.selected), #main-menu.sticky li .icon-add.checklist-new-only:hover:not(.selected) {
   padding-bottom: 14px;
+  border-bottom: 0;
 }
 #main-menu.sticky li a.selected, #main-menu.sticky li .selected.icon-add.checklist-new-only, #main-menu.sticky li a.selected:hover, #main-menu.sticky li .selected.icon-add.checklist-new-only:hover {
   color: #f9f9f9;
   box-shadow: inset 0 -3px 0 #f9f9f9;
   padding-bottom: 14px;
+  border-bottom: 0;
 }
 
 #admin-menu li {
@@ -7091,13 +7093,13 @@ div.wiki a.new, div.wiki .new.icon-add.checklist-new-only {
 }
 
 div.wiki pre {
-  font-size: 0.95em;
   background-color: #fdfdfd;
   border: 1px solid #e2e2e2;
+  border-radius: 4px;
   width: auto;
   overflow-x: auto;
   overflow-y: hidden;
-  margin: 1em 1em 1em 1.6em;
+  margin: 1em 0;
   padding: 8px;
 }
 
@@ -8220,9 +8222,8 @@ div[style*="clear:both"], div[style*="clear: both"] {
   }
 }
 p > code, div > code, span > code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #777777;
+  padding: 2px 3px 1px 3px;
+  color: #555;
   background-color: #f9f9f9;
   border-radius: 4px;
   border: 1px solid #cccccc;
