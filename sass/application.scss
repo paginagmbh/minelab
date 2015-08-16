@@ -4,6 +4,7 @@
 
 // Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lekton:400,700,400italic);
 
 // Variables
 @import "variables";
@@ -74,6 +75,10 @@ a {
   &.collapsible.collapsed {
     background: url(../images/arrow_collapsed.png) no-repeat -5px 40%;
   }
+}
+
+pre, code {
+  font-family: "Lekton", monospace;
 }
 
 #{$all-text-inputs}, #{$all-text-inputs-hover}, textarea, textarea:hover, select, select:hover {
@@ -2594,13 +2599,13 @@ div.wiki a.new {
 }
 
 div.wiki pre {
-  font-size: 0.95em;
   background-color: #fdfdfd;
   border: 1px solid #e2e2e2;
+  border-radius: 4px;
   width: auto;
   overflow-x: auto;
   overflow-y: hidden;
-  margin: 1em 1em 1em 1.6em;
+  margin: 1em 0;
   padding: 8px;
 }
 
@@ -4031,9 +4036,8 @@ div[style*="clear:both"], div[style*="clear: both"] {
 
 p, div, span {
   > code {
-    padding: 2px 4px;
-    font-size: 90%;
-    color: $grey;
+    padding: 2px 3px 1px 3px;
+    color: #555;
     background-color: $white;
     border-radius: 4px;
     border: 1px solid $medium-grey;

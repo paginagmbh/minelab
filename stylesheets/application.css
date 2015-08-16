@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lekton:400,700,400italic);
 html {
   box-sizing: border-box;
 }
@@ -4796,6 +4797,10 @@ a.collapsible, .collapsible.icon-add.checklist-new-only {
 }
 a.collapsible.collapsed, .collapsible.collapsed.icon-add.checklist-new-only {
   background: url(../images/arrow_collapsed.png) no-repeat -5px 40%;
+}
+
+pre, code {
+  font-family: "Lekton", monospace;
 }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover, textarea, textarea:hover, select, select:hover {
