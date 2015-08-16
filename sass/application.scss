@@ -3600,7 +3600,7 @@ span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset
 div.journal {
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  padding: 5px 10px;
+  padding: 0 10px;
   border-radius: 4px;
   background: #F9F9F9;
   position: relative;
@@ -3613,6 +3613,14 @@ div.journal {
     padding-top: 1em;
     p {
       margin-top: 0;
+    }
+  }
+  h4 {
+    padding-bottom: 0;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    img.gravatar {
+      margin: -4px 4px 0 -2.5em;
     }
   }
 }
