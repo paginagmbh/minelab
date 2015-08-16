@@ -7758,7 +7758,7 @@ a img, .icon-add.checklist-new-only img, #issue_tree table.issues, #relations ta
   border: 0;
 }
 
-a.project.closed, .project.closed.icon-add.checklist-new-only, a.project.closed:link, .project.closed.icon-add.checklist-new-only:link, a.project.closed:visited, .project.closed.icon-add.checklist-new-only:visited, a.user.locked, .user.locked.icon-add.checklist-new-only, a.user.locked:link, .user.locked.icon-add.checklist-new-only:link, a.user.locked:visited, .user.locked.icon-add.checklist-new-only:visited, a#toggle-completed-versions, #toggle-completed-versions.icon-add.checklist-new-only, tr.version.closed, tr.version.closed a, tr.version.closed .icon-add.checklist-new-only, div.issue .next-prev-links {
+a.project.closed, .project.closed.icon-add.checklist-new-only, a.project.closed:link, .project.closed.icon-add.checklist-new-only:link, a.project.closed:visited, .project.closed.icon-add.checklist-new-only:visited, a.user.locked, .user.locked.icon-add.checklist-new-only, a.user.locked:link, .user.locked.icon-add.checklist-new-only:link, a.user.locked:visited, .user.locked.icon-add.checklist-new-only:visited, tr.version.closed, tr.version.closed a, tr.version.closed .icon-add.checklist-new-only, div.issue .next-prev-links {
   color: #999999;
 }
 
