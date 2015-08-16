@@ -5814,9 +5814,11 @@ div.projects h3:before {
   opacity: 0.4;
   vertical-align: baseline;
   padding: 0;
+  display: none;
 }
 #watchers a.delete:before, #watchers .delete.icon-add.checklist-new-only:before {
   font-size: 1.2em;
+  display: none;
 }
 #watchers a.delete img, #watchers .delete.icon-add.checklist-new-only img {
   display: none !important;
@@ -5826,6 +5828,12 @@ div.projects h3:before {
 }
 #watchers ul.watchers {
   padding: 0 10px !important;
+}
+#watchers ul.watchers li:hover a.delete, #watchers ul.watchers li:hover .delete.icon-add.checklist-new-only, #watchers ul.watchers li:active a.delete, #watchers ul.watchers li:active .delete.icon-add.checklist-new-only, #watchers ul.watchers li:focus a.delete, #watchers ul.watchers li:focus .delete.icon-add.checklist-new-only {
+  display: inline-block;
+}
+#watchers ul.watchers li:hover a.delete:before, #watchers ul.watchers li:hover .delete.icon-add.checklist-new-only:before, #watchers ul.watchers li:active a.delete:before, #watchers ul.watchers li:active .delete.icon-add.checklist-new-only:before, #watchers ul.watchers li:focus a.delete:before, #watchers ul.watchers li:focus .delete.icon-add.checklist-new-only:before {
+  display: inline-block;
 }
 #watchers ul.watchers a, #watchers ul.watchers .icon-add.checklist-new-only {
   width: auto !important;

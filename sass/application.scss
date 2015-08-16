@@ -1277,9 +1277,11 @@ div.projects h3 {
     vertical-align: baseline;
     padding: 0;
     @extend .fa-trash;
+    display: none;
     &:before {
       @extend .fa;
       font-size: 1.2em;
+      display: none;
     }
     img {
       display: none !important;
@@ -1292,6 +1294,16 @@ div.projects h3 {
 
   ul.watchers {
     padding: 0 10px!important;
+    li {
+      &:hover, &:active, &:focus {
+        a.delete {
+          display: inline-block;
+          &:before {
+            display: inline-block;
+          }
+        }
+      }
+    }
     a {
       width: auto!important;
     }
