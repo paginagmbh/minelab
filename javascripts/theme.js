@@ -96,6 +96,9 @@ jQuery(document).ready(function($){
 
 		$('#account:not(.cms) .my-page').parent().detach().prependTo('#account ul:first');
 	});
+  
+    /* hide flash notice after 5sec */
+    $('.flash.notice').delay(5000).fadeOut('slow');
     
     /* sticky main-menu header */
     function sticky() {
